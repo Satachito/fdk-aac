@@ -1,0 +1,2256 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		124FDBF52A666BAA00C72419 /* Decoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FDBF42A666BAA00C72419 /* Decoder.cpp */; };
+		124FE1852A666F6400C72419 /* aac-enc.c in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1842A666F6400C72419 /* aac-enc.c */; };
+		124FE3492A666F9600C72419 /* tpenc_lib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE18C2A666F9400C72419 /* tpenc_lib.cpp */; };
+		124FE34B2A666F9600C72419 /* tpenc_lib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE18C2A666F9400C72419 /* tpenc_lib.cpp */; };
+		124FE34C2A666F9600C72419 /* tpenc_latm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE18D2A666F9400C72419 /* tpenc_latm.cpp */; };
+		124FE34E2A666F9600C72419 /* tpenc_latm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE18D2A666F9400C72419 /* tpenc_latm.cpp */; };
+		124FE34F2A666F9600C72419 /* tpenc_adts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE18E2A666F9400C72419 /* tpenc_adts.cpp */; };
+		124FE3512A666F9600C72419 /* tpenc_adts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE18E2A666F9400C72419 /* tpenc_adts.cpp */; };
+		124FE3522A666F9600C72419 /* tpenc_asc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1912A666F9400C72419 /* tpenc_asc.cpp */; };
+		124FE3542A666F9600C72419 /* tpenc_asc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1912A666F9400C72419 /* tpenc_asc.cpp */; };
+		124FE3552A666F9600C72419 /* tpenc_adif.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1952A666F9400C72419 /* tpenc_adif.cpp */; };
+		124FE3572A666F9600C72419 /* tpenc_adif.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1952A666F9400C72419 /* tpenc_adif.cpp */; };
+		124FE3582A666F9600C72419 /* usacdec_lpd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE19A2A666F9500C72419 /* usacdec_lpd.cpp */; };
+		124FE35A2A666F9600C72419 /* usacdec_lpd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE19A2A666F9500C72419 /* usacdec_lpd.cpp */; };
+		124FE35B2A666F9600C72419 /* FDK_delay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE19B2A666F9500C72419 /* FDK_delay.cpp */; };
+		124FE35D2A666F9600C72419 /* FDK_delay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE19B2A666F9500C72419 /* FDK_delay.cpp */; };
+		124FE35E2A666F9600C72419 /* conceal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE19C2A666F9500C72419 /* conceal.cpp */; };
+		124FE3602A666F9600C72419 /* conceal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE19C2A666F9500C72419 /* conceal.cpp */; };
+		124FE3612A666F9600C72419 /* aacdecoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1A22A666F9500C72419 /* aacdecoder.cpp */; };
+		124FE3632A666F9600C72419 /* aacdecoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1A22A666F9500C72419 /* aacdecoder.cpp */; };
+		124FE3642A666F9600C72419 /* usacdec_lpc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1A42A666F9500C72419 /* usacdec_lpc.cpp */; };
+		124FE3662A666F9600C72419 /* usacdec_lpc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1A42A666F9500C72419 /* usacdec_lpc.cpp */; };
+		124FE3672A666F9600C72419 /* rvlcconceal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1A62A666F9500C72419 /* rvlcconceal.cpp */; };
+		124FE3692A666F9600C72419 /* rvlcconceal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1A62A666F9500C72419 /* rvlcconceal.cpp */; };
+		124FE36A2A666F9600C72419 /* channel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1A92A666F9500C72419 /* channel.cpp */; };
+		124FE36C2A666F9600C72419 /* channel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1A92A666F9500C72419 /* channel.cpp */; };
+		124FE36D2A666F9600C72419 /* aacdec_hcrs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1AA2A666F9500C72419 /* aacdec_hcrs.cpp */; };
+		124FE36F2A666F9600C72419 /* aacdec_hcrs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1AA2A666F9500C72419 /* aacdec_hcrs.cpp */; };
+		124FE3702A666F9600C72419 /* block.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1AB2A666F9500C72419 /* block.cpp */; };
+		124FE3722A666F9600C72419 /* block.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1AB2A666F9500C72419 /* block.cpp */; };
+		124FE3732A666F9600C72419 /* usacdec_ace_d4t64.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1AF2A666F9500C72419 /* usacdec_ace_d4t64.cpp */; };
+		124FE3752A666F9600C72419 /* usacdec_ace_d4t64.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1AF2A666F9500C72419 /* usacdec_ace_d4t64.cpp */; };
+		124FE3762A666F9600C72419 /* channelinfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1B02A666F9500C72419 /* channelinfo.cpp */; };
+		124FE3782A666F9600C72419 /* channelinfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1B02A666F9500C72419 /* channelinfo.cpp */; };
+		124FE3792A666F9600C72419 /* usacdec_fac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1B12A666F9500C72419 /* usacdec_fac.cpp */; };
+		124FE37B2A666F9600C72419 /* usacdec_fac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1B12A666F9500C72419 /* usacdec_fac.cpp */; };
+		124FE37C2A666F9600C72419 /* aac_ram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1B22A666F9500C72419 /* aac_ram.cpp */; };
+		124FE37E2A666F9600C72419 /* aac_ram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1B22A666F9500C72419 /* aac_ram.cpp */; };
+		124FE37F2A666F9600C72419 /* stereo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1B32A666F9500C72419 /* stereo.cpp */; };
+		124FE3812A666F9600C72419 /* stereo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1B32A666F9500C72419 /* stereo.cpp */; };
+		124FE3822A666F9600C72419 /* aacdecoder_lib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1B52A666F9500C72419 /* aacdecoder_lib.cpp */; };
+		124FE3842A666F9600C72419 /* aacdecoder_lib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1B52A666F9500C72419 /* aacdecoder_lib.cpp */; };
+		124FE3852A666F9600C72419 /* rvlc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1B62A666F9500C72419 /* rvlc.cpp */; };
+		124FE3872A666F9600C72419 /* rvlc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1B62A666F9500C72419 /* rvlc.cpp */; };
+		124FE3882A666F9600C72419 /* aacdec_hcr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1BB2A666F9500C72419 /* aacdec_hcr.cpp */; };
+		124FE38A2A666F9600C72419 /* aacdec_hcr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1BB2A666F9500C72419 /* aacdec_hcr.cpp */; };
+		124FE38B2A666F9600C72419 /* rvlcbit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1BD2A666F9500C72419 /* rvlcbit.cpp */; };
+		124FE38D2A666F9600C72419 /* rvlcbit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1BD2A666F9500C72419 /* rvlcbit.cpp */; };
+		124FE38E2A666F9600C72419 /* usacdec_ace_ltp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1BE2A666F9500C72419 /* usacdec_ace_ltp.cpp */; };
+		124FE3902A666F9600C72419 /* usacdec_ace_ltp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1BE2A666F9500C72419 /* usacdec_ace_ltp.cpp */; };
+		124FE3912A666F9600C72419 /* aac_rom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1C02A666F9500C72419 /* aac_rom.cpp */; };
+		124FE3932A666F9600C72419 /* aac_rom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1C02A666F9500C72419 /* aac_rom.cpp */; };
+		124FE3942A666F9600C72419 /* aacdec_tns.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1C72A666F9500C72419 /* aacdec_tns.cpp */; };
+		124FE3962A666F9600C72419 /* aacdec_tns.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1C72A666F9500C72419 /* aacdec_tns.cpp */; };
+		124FE3972A666F9600C72419 /* usacdec_acelp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1C82A666F9500C72419 /* usacdec_acelp.cpp */; };
+		124FE3992A666F9600C72419 /* usacdec_acelp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1C82A666F9500C72419 /* usacdec_acelp.cpp */; };
+		124FE39D2A666F9600C72419 /* aacdec_drc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1CD2A666F9500C72419 /* aacdec_drc.cpp */; };
+		124FE39F2A666F9600C72419 /* aacdec_drc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1CD2A666F9500C72419 /* aacdec_drc.cpp */; };
+		124FE3A02A666F9600C72419 /* pulsedata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1CE2A666F9500C72419 /* pulsedata.cpp */; };
+		124FE3A22A666F9600C72419 /* pulsedata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1CE2A666F9500C72419 /* pulsedata.cpp */; };
+		124FE3A32A666F9600C72419 /* usacdec_rom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1D12A666F9500C72419 /* usacdec_rom.cpp */; };
+		124FE3A52A666F9600C72419 /* usacdec_rom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1D12A666F9500C72419 /* usacdec_rom.cpp */; };
+		124FE3A62A666F9600C72419 /* ldfiltbank.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1D32A666F9500C72419 /* ldfiltbank.cpp */; };
+		124FE3A82A666F9600C72419 /* ldfiltbank.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1D32A666F9500C72419 /* ldfiltbank.cpp */; };
+		124FE3A92A666F9600C72419 /* aacdec_hcr_bit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1D52A666F9500C72419 /* aacdec_hcr_bit.cpp */; };
+		124FE3AB2A666F9600C72419 /* aacdec_hcr_bit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1D52A666F9500C72419 /* aacdec_hcr_bit.cpp */; };
+		124FE3AC2A666F9600C72419 /* aacdec_pns.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1D82A666F9500C72419 /* aacdec_pns.cpp */; };
+		124FE3AE2A666F9600C72419 /* aacdec_pns.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE1D82A666F9500C72419 /* aacdec_pns.cpp */; };
+		124FE3AF2A666F9600C72419 /* FDK_core.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2112A666F9500C72419 /* FDK_core.cpp */; };
+		124FE3B12A666F9600C72419 /* FDK_core.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2112A666F9500C72419 /* FDK_core.cpp */; };
+		124FE3B22A666F9600C72419 /* FDK_trigFcts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2122A666F9500C72419 /* FDK_trigFcts.cpp */; };
+		124FE3B42A666F9600C72419 /* FDK_trigFcts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2122A666F9500C72419 /* FDK_trigFcts.cpp */; };
+		124FE3B52A666F9600C72419 /* mdct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2132A666F9500C72419 /* mdct.cpp */; };
+		124FE3B72A666F9600C72419 /* mdct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2132A666F9500C72419 /* mdct.cpp */; };
+		124FE3B82A666F9600C72419 /* FDK_matrixCalloc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2142A666F9500C72419 /* FDK_matrixCalloc.cpp */; };
+		124FE3BA2A666F9600C72419 /* FDK_matrixCalloc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2142A666F9500C72419 /* FDK_matrixCalloc.cpp */; };
+		124FE3BB2A666F9600C72419 /* fft.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2152A666F9500C72419 /* fft.cpp */; };
+		124FE3BD2A666F9600C72419 /* fft.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2152A666F9500C72419 /* fft.cpp */; };
+		124FE3BE2A666F9600C72419 /* FDK_bitbuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2162A666F9500C72419 /* FDK_bitbuffer.cpp */; };
+		124FE3C02A666F9600C72419 /* FDK_bitbuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2162A666F9500C72419 /* FDK_bitbuffer.cpp */; };
+		124FE3C12A666F9600C72419 /* nlc_dec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2172A666F9500C72419 /* nlc_dec.cpp */; };
+		124FE3C32A666F9600C72419 /* nlc_dec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2172A666F9500C72419 /* nlc_dec.cpp */; };
+		124FE3C42A666F9600C72419 /* autocorr2nd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2182A666F9500C72419 /* autocorr2nd.cpp */; };
+		124FE3C62A666F9600C72419 /* autocorr2nd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2182A666F9500C72419 /* autocorr2nd.cpp */; };
+		124FE3C72A666F9600C72419 /* huff_nodes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2192A666F9500C72419 /* huff_nodes.cpp */; };
+		124FE3C92A666F9600C72419 /* huff_nodes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2192A666F9500C72419 /* huff_nodes.cpp */; };
+		124FE3CA2A666F9600C72419 /* FDK_hybrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE21A2A666F9500C72419 /* FDK_hybrid.cpp */; };
+		124FE3CC2A666F9600C72419 /* FDK_hybrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE21A2A666F9500C72419 /* FDK_hybrid.cpp */; };
+		124FE3D62A666F9600C72419 /* FDK_lpc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE21F2A666F9500C72419 /* FDK_lpc.cpp */; };
+		124FE3D82A666F9600C72419 /* FDK_lpc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE21F2A666F9500C72419 /* FDK_lpc.cpp */; };
+		124FE3D92A666F9600C72419 /* fft_rad2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2202A666F9500C72419 /* fft_rad2.cpp */; };
+		124FE3DB2A666F9600C72419 /* fft_rad2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2202A666F9500C72419 /* fft_rad2.cpp */; };
+		124FE3DC2A666F9600C72419 /* FDK_qmf_domain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2212A666F9500C72419 /* FDK_qmf_domain.cpp */; };
+		124FE3DE2A666F9600C72419 /* FDK_qmf_domain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2212A666F9500C72419 /* FDK_qmf_domain.cpp */; };
+		124FE3E52A666F9600C72419 /* fixpoint_math.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2252A666F9500C72419 /* fixpoint_math.cpp */; };
+		124FE3E72A666F9600C72419 /* fixpoint_math.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2252A666F9500C72419 /* fixpoint_math.cpp */; };
+		124FE3E82A666F9600C72419 /* scale.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2262A666F9500C72419 /* scale.cpp */; };
+		124FE3EA2A666F9600C72419 /* scale.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2262A666F9500C72419 /* scale.cpp */; };
+		124FE3EB2A666F9600C72419 /* FDK_decorrelate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2272A666F9500C72419 /* FDK_decorrelate.cpp */; };
+		124FE3ED2A666F9600C72419 /* FDK_decorrelate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2272A666F9500C72419 /* FDK_decorrelate.cpp */; };
+		124FE3EE2A666F9600C72419 /* dct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2282A666F9500C72419 /* dct.cpp */; };
+		124FE3F02A666F9600C72419 /* dct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2282A666F9500C72419 /* dct.cpp */; };
+		124FE3F12A666F9600C72419 /* FDK_crc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2292A666F9500C72419 /* FDK_crc.cpp */; };
+		124FE3F32A666F9600C72419 /* FDK_crc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2292A666F9500C72419 /* FDK_crc.cpp */; };
+		124FE3F42A666F9600C72419 /* FDK_tools_rom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE22A2A666F9500C72419 /* FDK_tools_rom.cpp */; };
+		124FE3F62A666F9600C72419 /* FDK_tools_rom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE22A2A666F9500C72419 /* FDK_tools_rom.cpp */; };
+		124FE3F72A666F9600C72419 /* qmf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE22B2A666F9500C72419 /* qmf.cpp */; };
+		124FE3F92A666F9600C72419 /* qmf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE22B2A666F9500C72419 /* qmf.cpp */; };
+		124FE3FA2A666F9600C72419 /* metadata_compressor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2302A666F9500C72419 /* metadata_compressor.cpp */; };
+		124FE3FC2A666F9600C72419 /* metadata_compressor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2302A666F9500C72419 /* metadata_compressor.cpp */; };
+		124FE3FD2A666F9600C72419 /* pnsparam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2322A666F9500C72419 /* pnsparam.cpp */; };
+		124FE3FF2A666F9600C72419 /* pnsparam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2322A666F9500C72419 /* pnsparam.cpp */; };
+		124FE4002A666F9600C72419 /* grp_data.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2342A666F9500C72419 /* grp_data.cpp */; };
+		124FE4022A666F9600C72419 /* grp_data.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2342A666F9500C72419 /* grp_data.cpp */; };
+		124FE4032A666F9600C72419 /* tonality.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2352A666F9500C72419 /* tonality.cpp */; };
+		124FE4052A666F9600C72419 /* tonality.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2352A666F9500C72419 /* tonality.cpp */; };
+		124FE4062A666F9600C72419 /* aacenc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2382A666F9500C72419 /* aacenc.cpp */; };
+		124FE4082A666F9600C72419 /* aacenc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2382A666F9500C72419 /* aacenc.cpp */; };
+		124FE4092A666F9600C72419 /* bitenc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE23C2A666F9500C72419 /* bitenc.cpp */; };
+		124FE40B2A666F9600C72419 /* bitenc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE23C2A666F9500C72419 /* bitenc.cpp */; };
+		124FE40C2A666F9600C72419 /* noisedet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2442A666F9500C72419 /* noisedet.cpp */; };
+		124FE40E2A666F9600C72419 /* noisedet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2442A666F9500C72419 /* noisedet.cpp */; };
+		124FE40F2A666F9600C72419 /* aacEnc_ram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2452A666F9500C72419 /* aacEnc_ram.cpp */; };
+		124FE4112A666F9600C72419 /* aacEnc_ram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2452A666F9500C72419 /* aacEnc_ram.cpp */; };
+		124FE4122A666F9600C72419 /* band_nrg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2462A666F9500C72419 /* band_nrg.cpp */; };
+		124FE4142A666F9600C72419 /* band_nrg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2462A666F9500C72419 /* band_nrg.cpp */; };
+		124FE4152A666F9600C72419 /* dyn_bits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2472A666F9500C72419 /* dyn_bits.cpp */; };
+		124FE4172A666F9600C72419 /* dyn_bits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2472A666F9500C72419 /* dyn_bits.cpp */; };
+		124FE4182A666F9600C72419 /* aacenc_lib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2542A666F9500C72419 /* aacenc_lib.cpp */; };
+		124FE41A2A666F9600C72419 /* aacenc_lib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2542A666F9500C72419 /* aacenc_lib.cpp */; };
+		124FE41B2A666F9600C72419 /* bandwidth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2552A666F9500C72419 /* bandwidth.cpp */; };
+		124FE41D2A666F9600C72419 /* bandwidth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2552A666F9500C72419 /* bandwidth.cpp */; };
+		124FE41E2A666F9600C72419 /* aacenc_tns.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2562A666F9500C72419 /* aacenc_tns.cpp */; };
+		124FE4202A666F9600C72419 /* aacenc_tns.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2562A666F9500C72419 /* aacenc_tns.cpp */; };
+		124FE4212A666F9600C72419 /* transform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2572A666F9500C72419 /* transform.cpp */; };
+		124FE4232A666F9600C72419 /* transform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2572A666F9500C72419 /* transform.cpp */; };
+		124FE4242A666F9600C72419 /* aacEnc_rom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2582A666F9500C72419 /* aacEnc_rom.cpp */; };
+		124FE4262A666F9600C72419 /* aacEnc_rom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2582A666F9500C72419 /* aacEnc_rom.cpp */; };
+		124FE4272A666F9600C72419 /* pre_echo_control.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE25C2A666F9500C72419 /* pre_echo_control.cpp */; };
+		124FE4292A666F9600C72419 /* pre_echo_control.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE25C2A666F9500C72419 /* pre_echo_control.cpp */; };
+		124FE42A2A666F9600C72419 /* chaosmeasure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE25D2A666F9500C72419 /* chaosmeasure.cpp */; };
+		124FE42C2A666F9600C72419 /* chaosmeasure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE25D2A666F9500C72419 /* chaosmeasure.cpp */; };
+		124FE42D2A666F9600C72419 /* block_switch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE25E2A666F9500C72419 /* block_switch.cpp */; };
+		124FE42F2A666F9600C72419 /* block_switch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE25E2A666F9500C72419 /* block_switch.cpp */; };
+		124FE4302A666F9600C72419 /* line_pe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE25F2A666F9500C72419 /* line_pe.cpp */; };
+		124FE4322A666F9600C72419 /* line_pe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE25F2A666F9500C72419 /* line_pe.cpp */; };
+		124FE4332A666F9600C72419 /* aacenc_pns.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2612A666F9500C72419 /* aacenc_pns.cpp */; };
+		124FE4352A666F9600C72419 /* aacenc_pns.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2612A666F9500C72419 /* aacenc_pns.cpp */; };
+		124FE4362A666F9600C72419 /* qc_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2622A666F9500C72419 /* qc_main.cpp */; };
+		124FE4382A666F9700C72419 /* qc_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2622A666F9500C72419 /* qc_main.cpp */; };
+		124FE4392A666F9700C72419 /* bit_cnt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2632A666F9500C72419 /* bit_cnt.cpp */; };
+		124FE43B2A666F9700C72419 /* bit_cnt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2632A666F9500C72419 /* bit_cnt.cpp */; };
+		124FE43C2A666F9700C72419 /* quantize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2662A666F9500C72419 /* quantize.cpp */; };
+		124FE43E2A666F9700C72419 /* quantize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2662A666F9500C72419 /* quantize.cpp */; };
+		124FE43F2A666F9700C72419 /* mps_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2682A666F9500C72419 /* mps_main.cpp */; };
+		124FE4412A666F9700C72419 /* mps_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2682A666F9500C72419 /* mps_main.cpp */; };
+		124FE4422A666F9700C72419 /* psy_configuration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2692A666F9500C72419 /* psy_configuration.cpp */; };
+		124FE4442A666F9700C72419 /* psy_configuration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2692A666F9500C72419 /* psy_configuration.cpp */; };
+		124FE4452A666F9700C72419 /* intensity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE26A2A666F9500C72419 /* intensity.cpp */; };
+		124FE4472A666F9700C72419 /* intensity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE26A2A666F9500C72419 /* intensity.cpp */; };
+		124FE4482A666F9700C72419 /* ms_stereo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE26D2A666F9500C72419 /* ms_stereo.cpp */; };
+		124FE44A2A666F9700C72419 /* ms_stereo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE26D2A666F9500C72419 /* ms_stereo.cpp */; };
+		124FE44B2A666F9700C72419 /* sf_estim.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE26F2A666F9500C72419 /* sf_estim.cpp */; };
+		124FE44D2A666F9700C72419 /* sf_estim.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE26F2A666F9500C72419 /* sf_estim.cpp */; };
+		124FE44E2A666F9700C72419 /* metadata_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2722A666F9500C72419 /* metadata_main.cpp */; };
+		124FE4502A666F9700C72419 /* metadata_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2722A666F9500C72419 /* metadata_main.cpp */; };
+		124FE4512A666F9700C72419 /* psy_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2732A666F9500C72419 /* psy_main.cpp */; };
+		124FE4532A666F9700C72419 /* psy_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2732A666F9500C72419 /* psy_main.cpp */; };
+		124FE4542A666F9700C72419 /* adj_thr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2742A666F9500C72419 /* adj_thr.cpp */; };
+		124FE4562A666F9700C72419 /* adj_thr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2742A666F9500C72419 /* adj_thr.cpp */; };
+		124FE4572A666F9700C72419 /* channel_map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2752A666F9500C72419 /* channel_map.cpp */; };
+		124FE4592A666F9700C72419 /* channel_map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2752A666F9500C72419 /* channel_map.cpp */; };
+		124FE45A2A666F9700C72419 /* spreading.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2772A666F9500C72419 /* spreading.cpp */; };
+		124FE45C2A666F9700C72419 /* spreading.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2772A666F9500C72419 /* spreading.cpp */; };
+		124FE45D2A666F9700C72419 /* ac_arith_coder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE27C2A666F9500C72419 /* ac_arith_coder.cpp */; };
+		124FE45F2A666F9700C72419 /* ac_arith_coder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE27C2A666F9500C72419 /* ac_arith_coder.cpp */; };
+		124FE4602A666F9700C72419 /* drcDec_rom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2832A666F9500C72419 /* drcDec_rom.cpp */; };
+		124FE4622A666F9700C72419 /* drcDec_rom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2832A666F9500C72419 /* drcDec_rom.cpp */; };
+		124FE4632A666F9700C72419 /* drcDec_reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2862A666F9500C72419 /* drcDec_reader.cpp */; };
+		124FE4652A666F9700C72419 /* drcDec_reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2862A666F9500C72419 /* drcDec_reader.cpp */; };
+		124FE4662A666F9700C72419 /* drcGainDec_process.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2872A666F9500C72419 /* drcGainDec_process.cpp */; };
+		124FE4682A666F9700C72419 /* drcGainDec_process.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2872A666F9500C72419 /* drcGainDec_process.cpp */; };
+		124FE4692A666F9700C72419 /* drcDec_selectionProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2892A666F9500C72419 /* drcDec_selectionProcess.cpp */; };
+		124FE46B2A666F9700C72419 /* drcDec_selectionProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2892A666F9500C72419 /* drcDec_selectionProcess.cpp */; };
+		124FE46C2A666F9700C72419 /* drcDec_gainDecoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE28A2A666F9500C72419 /* drcDec_gainDecoder.cpp */; };
+		124FE46E2A666F9700C72419 /* drcDec_gainDecoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE28A2A666F9500C72419 /* drcDec_gainDecoder.cpp */; };
+		124FE46F2A666F9700C72419 /* FDK_drcDecLib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE28C2A666F9500C72419 /* FDK_drcDecLib.cpp */; };
+		124FE4712A666F9700C72419 /* FDK_drcDecLib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE28C2A666F9500C72419 /* FDK_drcDecLib.cpp */; };
+		124FE4722A666F9700C72419 /* drcGainDec_preprocess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE28F2A666F9500C72419 /* drcGainDec_preprocess.cpp */; };
+		124FE4742A666F9700C72419 /* drcGainDec_preprocess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE28F2A666F9500C72419 /* drcGainDec_preprocess.cpp */; };
+		124FE4752A666F9700C72419 /* drcGainDec_init.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2902A666F9500C72419 /* drcGainDec_init.cpp */; };
+		124FE4772A666F9700C72419 /* drcGainDec_init.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2902A666F9500C72419 /* drcGainDec_init.cpp */; };
+		124FE4782A666F9700C72419 /* drcDec_tools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2912A666F9500C72419 /* drcDec_tools.cpp */; };
+		124FE47A2A666F9700C72419 /* drcDec_tools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2912A666F9500C72419 /* drcDec_tools.cpp */; };
+		124FE47B2A666F9700C72419 /* sac_process.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE29A2A666F9500C72419 /* sac_process.cpp */; };
+		124FE47D2A666F9700C72419 /* sac_process.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE29A2A666F9500C72419 /* sac_process.cpp */; };
+		124FE47E2A666F9700C72419 /* sac_calcM1andM2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE29B2A666F9500C72419 /* sac_calcM1andM2.cpp */; };
+		124FE4802A666F9700C72419 /* sac_calcM1andM2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE29B2A666F9500C72419 /* sac_calcM1andM2.cpp */; };
+		124FE4812A666F9700C72419 /* sac_dec_lib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2A12A666F9500C72419 /* sac_dec_lib.cpp */; };
+		124FE4832A666F9700C72419 /* sac_dec_lib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2A12A666F9500C72419 /* sac_dec_lib.cpp */; };
+		124FE4842A666F9700C72419 /* sac_smoothing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2A42A666F9500C72419 /* sac_smoothing.cpp */; };
+		124FE4862A666F9700C72419 /* sac_smoothing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2A42A666F9500C72419 /* sac_smoothing.cpp */; };
+		124FE4872A666F9700C72419 /* sac_stp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2A72A666F9500C72419 /* sac_stp.cpp */; };
+		124FE4892A666F9700C72419 /* sac_stp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2A72A666F9500C72419 /* sac_stp.cpp */; };
+		124FE48A2A666F9700C72419 /* sac_qmf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2A92A666F9500C72419 /* sac_qmf.cpp */; };
+		124FE48C2A666F9700C72419 /* sac_qmf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2A92A666F9500C72419 /* sac_qmf.cpp */; };
+		124FE48D2A666F9700C72419 /* sac_tsd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2AA2A666F9500C72419 /* sac_tsd.cpp */; };
+		124FE48F2A666F9700C72419 /* sac_tsd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2AA2A666F9500C72419 /* sac_tsd.cpp */; };
+		124FE4902A666F9700C72419 /* sac_reshapeBBEnv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2AC2A666F9500C72419 /* sac_reshapeBBEnv.cpp */; };
+		124FE4922A666F9700C72419 /* sac_reshapeBBEnv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2AC2A666F9500C72419 /* sac_reshapeBBEnv.cpp */; };
+		124FE4932A666F9700C72419 /* sac_dec_conceal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2AE2A666F9500C72419 /* sac_dec_conceal.cpp */; };
+		124FE4952A666F9700C72419 /* sac_dec_conceal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2AE2A666F9500C72419 /* sac_dec_conceal.cpp */; };
+		124FE4962A666F9700C72419 /* sac_dec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2AF2A666F9500C72419 /* sac_dec.cpp */; };
+		124FE4982A666F9700C72419 /* sac_dec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2AF2A666F9500C72419 /* sac_dec.cpp */; };
+		124FE4992A666F9700C72419 /* sac_rom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2B02A666F9500C72419 /* sac_rom.cpp */; };
+		124FE49B2A666F9700C72419 /* sac_rom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2B02A666F9500C72419 /* sac_rom.cpp */; };
+		124FE49C2A666F9700C72419 /* sac_bitdec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2B12A666F9500C72419 /* sac_bitdec.cpp */; };
+		124FE49E2A666F9700C72419 /* sac_bitdec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2B12A666F9500C72419 /* sac_bitdec.cpp */; };
+		124FE49F2A666F9700C72419 /* syslib_channelMapDescr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2B92A666F9500C72419 /* syslib_channelMapDescr.cpp */; };
+		124FE4A12A666F9700C72419 /* syslib_channelMapDescr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2B92A666F9500C72419 /* syslib_channelMapDescr.cpp */; };
+		124FE4A22A666F9700C72419 /* genericStds.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2BA2A666F9500C72419 /* genericStds.cpp */; };
+		124FE4A42A666F9700C72419 /* genericStds.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2BA2A666F9500C72419 /* genericStds.cpp */; };
+		124FE4A52A666F9700C72419 /* lpp_tran.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2BF2A666F9500C72419 /* lpp_tran.cpp */; };
+		124FE4A72A666F9700C72419 /* lpp_tran.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2BF2A666F9500C72419 /* lpp_tran.cpp */; };
+		124FE4A82A666F9700C72419 /* hbe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2C42A666F9500C72419 /* hbe.cpp */; };
+		124FE4AA2A666F9700C72419 /* hbe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2C42A666F9500C72419 /* hbe.cpp */; };
+		124FE4AB2A666F9700C72419 /* psdec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2C52A666F9500C72419 /* psdec.cpp */; };
+		124FE4AD2A666F9700C72419 /* psdec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2C52A666F9500C72419 /* psdec.cpp */; };
+		124FE4AE2A666F9700C72419 /* env_extr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2C62A666F9500C72419 /* env_extr.cpp */; };
+		124FE4B02A666F9700C72419 /* env_extr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2C62A666F9500C72419 /* env_extr.cpp */; };
+		124FE4B12A666F9700C72419 /* sbrdecoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2CB2A666F9500C72419 /* sbrdecoder.cpp */; };
+		124FE4B32A666F9700C72419 /* sbrdecoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2CB2A666F9500C72419 /* sbrdecoder.cpp */; };
+		124FE4B42A666F9700C72419 /* env_calc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2CD2A666F9500C72419 /* env_calc.cpp */; };
+		124FE4B62A666F9700C72419 /* env_calc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2CD2A666F9500C72419 /* env_calc.cpp */; };
+		124FE4B72A666F9700C72419 /* sbr_ram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2CE2A666F9500C72419 /* sbr_ram.cpp */; };
+		124FE4B92A666F9700C72419 /* sbr_ram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2CE2A666F9500C72419 /* sbr_ram.cpp */; };
+		124FE4BA2A666F9700C72419 /* sbrdec_freq_sca.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2CF2A666F9500C72419 /* sbrdec_freq_sca.cpp */; };
+		124FE4BC2A666F9700C72419 /* sbrdec_freq_sca.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2CF2A666F9500C72419 /* sbrdec_freq_sca.cpp */; };
+		124FE4BD2A666F9700C72419 /* pvc_dec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2D02A666F9500C72419 /* pvc_dec.cpp */; };
+		124FE4BF2A666F9700C72419 /* pvc_dec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2D02A666F9500C72419 /* pvc_dec.cpp */; };
+		124FE4C02A666F9700C72419 /* huff_dec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2D12A666F9500C72419 /* huff_dec.cpp */; };
+		124FE4C22A666F9700C72419 /* huff_dec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2D12A666F9500C72419 /* huff_dec.cpp */; };
+		124FE4C32A666F9700C72419 /* sbrdec_drc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2D52A666F9500C72419 /* sbrdec_drc.cpp */; };
+		124FE4C52A666F9700C72419 /* sbrdec_drc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2D52A666F9500C72419 /* sbrdec_drc.cpp */; };
+		124FE4C62A666F9700C72419 /* sbr_deb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2D72A666F9500C72419 /* sbr_deb.cpp */; };
+		124FE4C82A666F9700C72419 /* sbr_deb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2D72A666F9500C72419 /* sbr_deb.cpp */; };
+		124FE4C92A666F9700C72419 /* psbitdec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2D82A666F9500C72419 /* psbitdec.cpp */; };
+		124FE4CB2A666F9700C72419 /* psbitdec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2D82A666F9500C72419 /* psbitdec.cpp */; };
+		124FE4CC2A666F9700C72419 /* sbr_rom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2D92A666F9500C72419 /* sbr_rom.cpp */; };
+		124FE4CE2A666F9700C72419 /* sbr_rom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2D92A666F9500C72419 /* sbr_rom.cpp */; };
+		124FE4CF2A666F9700C72419 /* sbr_dec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2DA2A666F9500C72419 /* sbr_dec.cpp */; };
+		124FE4D12A666F9700C72419 /* sbr_dec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2DA2A666F9500C72419 /* sbr_dec.cpp */; };
+		124FE4D22A666F9700C72419 /* psdecrom_drm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2DB2A666F9500C72419 /* psdecrom_drm.cpp */; };
+		124FE4D42A666F9700C72419 /* psdecrom_drm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2DB2A666F9500C72419 /* psdecrom_drm.cpp */; };
+		124FE4D52A666F9700C72419 /* HFgen_preFlat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2DC2A666F9500C72419 /* HFgen_preFlat.cpp */; };
+		124FE4D72A666F9700C72419 /* HFgen_preFlat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2DC2A666F9500C72419 /* HFgen_preFlat.cpp */; };
+		124FE4D82A666F9700C72419 /* psdec_drm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2DF2A666F9500C72419 /* psdec_drm.cpp */; };
+		124FE4DA2A666F9700C72419 /* psdec_drm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2DF2A666F9500C72419 /* psdec_drm.cpp */; };
+		124FE4DB2A666F9700C72419 /* env_dec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2E02A666F9500C72419 /* env_dec.cpp */; };
+		124FE4DD2A666F9700C72419 /* env_dec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2E02A666F9500C72419 /* env_dec.cpp */; };
+		124FE4DE2A666F9700C72419 /* limiter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2EB2A666F9500C72419 /* limiter.cpp */; };
+		124FE4E02A666F9700C72419 /* limiter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2EB2A666F9500C72419 /* limiter.cpp */; };
+		124FE4E12A666F9700C72419 /* pcmdmx_lib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2EC2A666F9500C72419 /* pcmdmx_lib.cpp */; };
+		124FE4E32A666F9700C72419 /* pcmdmx_lib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2EC2A666F9500C72419 /* pcmdmx_lib.cpp */; };
+		124FE4E42A666F9700C72419 /* pcm_utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2ED2A666F9500C72419 /* pcm_utils.cpp */; };
+		124FE4E62A666F9700C72419 /* pcm_utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2ED2A666F9500C72419 /* pcm_utils.cpp */; };
+		124FE4E72A666F9700C72419 /* tpdec_asc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2F32A666F9600C72419 /* tpdec_asc.cpp */; };
+		124FE4E92A666F9700C72419 /* tpdec_asc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2F32A666F9600C72419 /* tpdec_asc.cpp */; };
+		124FE4EA2A666F9700C72419 /* tpdec_adif.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2F62A666F9600C72419 /* tpdec_adif.cpp */; };
+		124FE4EC2A666F9700C72419 /* tpdec_adif.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2F62A666F9600C72419 /* tpdec_adif.cpp */; };
+		124FE4ED2A666F9700C72419 /* tpdec_lib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2F72A666F9600C72419 /* tpdec_lib.cpp */; };
+		124FE4EF2A666F9700C72419 /* tpdec_lib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2F72A666F9600C72419 /* tpdec_lib.cpp */; };
+		124FE4F02A666F9700C72419 /* tpdec_latm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2FA2A666F9600C72419 /* tpdec_latm.cpp */; };
+		124FE4F22A666F9700C72419 /* tpdec_latm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2FA2A666F9600C72419 /* tpdec_latm.cpp */; };
+		124FE4F32A666F9700C72419 /* tpdec_drm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2FB2A666F9600C72419 /* tpdec_drm.cpp */; };
+		124FE4F52A666F9700C72419 /* tpdec_drm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2FB2A666F9600C72419 /* tpdec_drm.cpp */; };
+		124FE4F62A666F9700C72419 /* tpdec_adts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2FC2A666F9600C72419 /* tpdec_adts.cpp */; };
+		124FE4F82A666F9700C72419 /* tpdec_adts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE2FC2A666F9600C72419 /* tpdec_adts.cpp */; };
+		124FE4F92A666F9700C72419 /* sacenc_delay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3032A666F9600C72419 /* sacenc_delay.cpp */; };
+		124FE4FB2A666F9700C72419 /* sacenc_delay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3032A666F9600C72419 /* sacenc_delay.cpp */; };
+		124FE4FC2A666F9700C72419 /* sacenc_vectorfunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3082A666F9600C72419 /* sacenc_vectorfunctions.cpp */; };
+		124FE4FE2A666F9700C72419 /* sacenc_vectorfunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3082A666F9600C72419 /* sacenc_vectorfunctions.cpp */; };
+		124FE4FF2A666F9700C72419 /* sacenc_framewindowing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE30A2A666F9600C72419 /* sacenc_framewindowing.cpp */; };
+		124FE5012A666F9700C72419 /* sacenc_framewindowing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE30A2A666F9600C72419 /* sacenc_framewindowing.cpp */; };
+		124FE5022A666F9700C72419 /* sacenc_huff_tab.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE30F2A666F9600C72419 /* sacenc_huff_tab.cpp */; };
+		124FE5042A666F9700C72419 /* sacenc_huff_tab.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE30F2A666F9600C72419 /* sacenc_huff_tab.cpp */; };
+		124FE5052A666F9700C72419 /* sacenc_filter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3102A666F9600C72419 /* sacenc_filter.cpp */; };
+		124FE5072A666F9700C72419 /* sacenc_filter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3102A666F9600C72419 /* sacenc_filter.cpp */; };
+		124FE5082A666F9700C72419 /* sacenc_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3112A666F9600C72419 /* sacenc_tree.cpp */; };
+		124FE50A2A666F9700C72419 /* sacenc_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3112A666F9600C72419 /* sacenc_tree.cpp */; };
+		124FE50B2A666F9700C72419 /* sacenc_staticgain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3122A666F9600C72419 /* sacenc_staticgain.cpp */; };
+		124FE50D2A666F9700C72419 /* sacenc_staticgain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3122A666F9600C72419 /* sacenc_staticgain.cpp */; };
+		124FE50E2A666F9700C72419 /* sacenc_onsetdetect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3142A666F9600C72419 /* sacenc_onsetdetect.cpp */; };
+		124FE5102A666F9700C72419 /* sacenc_onsetdetect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3142A666F9600C72419 /* sacenc_onsetdetect.cpp */; };
+		124FE5112A666F9700C72419 /* sacenc_paramextract.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3152A666F9600C72419 /* sacenc_paramextract.cpp */; };
+		124FE5132A666F9700C72419 /* sacenc_paramextract.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3152A666F9600C72419 /* sacenc_paramextract.cpp */; };
+		124FE5142A666F9700C72419 /* sacenc_nlc_enc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3162A666F9600C72419 /* sacenc_nlc_enc.cpp */; };
+		124FE5162A666F9700C72419 /* sacenc_nlc_enc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3162A666F9600C72419 /* sacenc_nlc_enc.cpp */; };
+		124FE5172A666F9700C72419 /* sacenc_bitstream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3172A666F9600C72419 /* sacenc_bitstream.cpp */; };
+		124FE5192A666F9700C72419 /* sacenc_bitstream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3172A666F9600C72419 /* sacenc_bitstream.cpp */; };
+		124FE51A2A666F9700C72419 /* sacenc_dmx_tdom_enh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3182A666F9600C72419 /* sacenc_dmx_tdom_enh.cpp */; };
+		124FE51C2A666F9700C72419 /* sacenc_dmx_tdom_enh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3182A666F9600C72419 /* sacenc_dmx_tdom_enh.cpp */; };
+		124FE51D2A666F9700C72419 /* sacenc_lib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE31B2A666F9600C72419 /* sacenc_lib.cpp */; };
+		124FE51F2A666F9700C72419 /* sacenc_lib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE31B2A666F9600C72419 /* sacenc_lib.cpp */; };
+		124FE5202A666F9700C72419 /* code_env.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3212A666F9600C72419 /* code_env.cpp */; };
+		124FE5222A666F9700C72419 /* code_env.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3212A666F9600C72419 /* code_env.cpp */; };
+		124FE5232A666F9700C72419 /* sbrenc_rom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3222A666F9600C72419 /* sbrenc_rom.cpp */; };
+		124FE5252A666F9700C72419 /* sbrenc_rom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3222A666F9600C72419 /* sbrenc_rom.cpp */; };
+		124FE5262A666F9700C72419 /* bit_sbr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3232A666F9600C72419 /* bit_sbr.cpp */; };
+		124FE5282A666F9700C72419 /* bit_sbr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3232A666F9600C72419 /* bit_sbr.cpp */; };
+		124FE5292A666F9700C72419 /* ps_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3252A666F9600C72419 /* ps_main.cpp */; };
+		124FE52B2A666F9700C72419 /* ps_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3252A666F9600C72419 /* ps_main.cpp */; };
+		124FE52C2A666F9700C72419 /* ps_bitenc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3292A666F9600C72419 /* ps_bitenc.cpp */; };
+		124FE52E2A666F9700C72419 /* ps_bitenc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3292A666F9600C72419 /* ps_bitenc.cpp */; };
+		124FE52F2A666F9700C72419 /* mh_det.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE32A2A666F9600C72419 /* mh_det.cpp */; };
+		124FE5312A666F9700C72419 /* mh_det.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE32A2A666F9600C72419 /* mh_det.cpp */; };
+		124FE5322A666F9700C72419 /* sbr_misc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE32D2A666F9600C72419 /* sbr_misc.cpp */; };
+		124FE5342A666F9700C72419 /* sbr_misc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE32D2A666F9600C72419 /* sbr_misc.cpp */; };
+		124FE5352A666F9700C72419 /* env_est.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3302A666F9600C72419 /* env_est.cpp */; };
+		124FE5372A666F9700C72419 /* env_est.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3302A666F9600C72419 /* env_est.cpp */; };
+		124FE5382A666F9700C72419 /* ton_corr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3342A666F9600C72419 /* ton_corr.cpp */; };
+		124FE53A2A666F9700C72419 /* ton_corr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3342A666F9600C72419 /* ton_corr.cpp */; };
+		124FE53B2A666F9700C72419 /* ps_encode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3372A666F9600C72419 /* ps_encode.cpp */; };
+		124FE53D2A666F9700C72419 /* ps_encode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3372A666F9600C72419 /* ps_encode.cpp */; };
+		124FE53E2A666F9700C72419 /* invf_est.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3382A666F9600C72419 /* invf_est.cpp */; };
+		124FE5402A666F9700C72419 /* invf_est.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3382A666F9600C72419 /* invf_est.cpp */; };
+		124FE5412A666F9700C72419 /* fram_gen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE33B2A666F9600C72419 /* fram_gen.cpp */; };
+		124FE5432A666F9700C72419 /* fram_gen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE33B2A666F9600C72419 /* fram_gen.cpp */; };
+		124FE5442A666F9700C72419 /* sbr_encoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE33F2A666F9600C72419 /* sbr_encoder.cpp */; };
+		124FE5462A666F9700C72419 /* sbr_encoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE33F2A666F9600C72419 /* sbr_encoder.cpp */; };
+		124FE5472A666F9700C72419 /* sbrenc_ram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3412A666F9600C72419 /* sbrenc_ram.cpp */; };
+		124FE5492A666F9700C72419 /* sbrenc_ram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3412A666F9600C72419 /* sbrenc_ram.cpp */; };
+		124FE54A2A666F9700C72419 /* sbrenc_freq_sca.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3422A666F9600C72419 /* sbrenc_freq_sca.cpp */; };
+		124FE54C2A666F9700C72419 /* sbrenc_freq_sca.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3422A666F9600C72419 /* sbrenc_freq_sca.cpp */; };
+		124FE54D2A666F9700C72419 /* nf_est.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3432A666F9600C72419 /* nf_est.cpp */; };
+		124FE54F2A666F9700C72419 /* nf_est.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3432A666F9600C72419 /* nf_est.cpp */; };
+		124FE5502A666F9700C72419 /* env_bit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3442A666F9600C72419 /* env_bit.cpp */; };
+		124FE5522A666F9700C72419 /* env_bit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3442A666F9600C72419 /* env_bit.cpp */; };
+		124FE5532A666F9700C72419 /* tran_det.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3452A666F9600C72419 /* tran_det.cpp */; };
+		124FE5552A666F9700C72419 /* tran_det.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3452A666F9600C72419 /* tran_det.cpp */; };
+		124FE5562A666F9700C72419 /* resampler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3472A666F9600C72419 /* resampler.cpp */; };
+		124FE5582A666F9700C72419 /* resampler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE3472A666F9600C72419 /* resampler.cpp */; };
+		124FE55B2A6670B300C72419 /* wavreader.c in Sources */ = {isa = PBXBuildFile; fileRef = 124FE55A2A6670B300C72419 /* wavreader.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		124FDBF02A666BAA00C72419 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		124FE17B2A666F5600C72419 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		124FDBF22A666BAA00C72419 /* Decoder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Decoder; sourceTree = BUILT_PRODUCTS_DIR; };
+		124FDBF42A666BAA00C72419 /* Decoder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Decoder.cpp; sourceTree = "<group>"; };
+		124FE17D2A666F5600C72419 /* aac-enc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "aac-enc"; sourceTree = BUILT_PRODUCTS_DIR; };
+		124FE1842A666F6400C72419 /* aac-enc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "aac-enc.c"; path = "../../aac-enc.c"; sourceTree = "<group>"; };
+		124FE1892A666F9400C72419 /* tp_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tp_data.h; sourceTree = "<group>"; };
+		124FE18A2A666F9400C72419 /* tpenc_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tpenc_lib.h; sourceTree = "<group>"; };
+		124FE18C2A666F9400C72419 /* tpenc_lib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tpenc_lib.cpp; sourceTree = "<group>"; };
+		124FE18D2A666F9400C72419 /* tpenc_latm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tpenc_latm.cpp; sourceTree = "<group>"; };
+		124FE18E2A666F9400C72419 /* tpenc_adts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tpenc_adts.cpp; sourceTree = "<group>"; };
+		124FE18F2A666F9400C72419 /* tp_version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tp_version.h; sourceTree = "<group>"; };
+		124FE1902A666F9400C72419 /* tpenc_adts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tpenc_adts.h; sourceTree = "<group>"; };
+		124FE1912A666F9400C72419 /* tpenc_asc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tpenc_asc.cpp; sourceTree = "<group>"; };
+		124FE1922A666F9400C72419 /* tpenc_adif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tpenc_adif.h; sourceTree = "<group>"; };
+		124FE1932A666F9400C72419 /* tpenc_asc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tpenc_asc.h; sourceTree = "<group>"; };
+		124FE1942A666F9400C72419 /* tpenc_latm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tpenc_latm.h; sourceTree = "<group>"; };
+		124FE1952A666F9400C72419 /* tpenc_adif.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tpenc_adif.cpp; sourceTree = "<group>"; };
+		124FE1982A666F9500C72419 /* aacdecoder_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aacdecoder_lib.h; sourceTree = "<group>"; };
+		124FE19A2A666F9500C72419 /* usacdec_lpd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = usacdec_lpd.cpp; sourceTree = "<group>"; };
+		124FE19B2A666F9500C72419 /* FDK_delay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FDK_delay.cpp; sourceTree = "<group>"; };
+		124FE19C2A666F9500C72419 /* conceal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = conceal.cpp; sourceTree = "<group>"; };
+		124FE19D2A666F9500C72419 /* channel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = channel.h; sourceTree = "<group>"; };
+		124FE19E2A666F9500C72419 /* aacdec_pns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aacdec_pns.h; sourceTree = "<group>"; };
+		124FE19F2A666F9500C72419 /* rvlc_info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rvlc_info.h; sourceTree = "<group>"; };
+		124FE1A02A666F9500C72419 /* FDK_delay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDK_delay.h; sourceTree = "<group>"; };
+		124FE1A12A666F9500C72419 /* aacdec_tns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aacdec_tns.h; sourceTree = "<group>"; };
+		124FE1A22A666F9500C72419 /* aacdecoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aacdecoder.cpp; sourceTree = "<group>"; };
+		124FE1A32A666F9500C72419 /* overlapadd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = overlapadd.h; sourceTree = "<group>"; };
+		124FE1A42A666F9500C72419 /* usacdec_lpc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = usacdec_lpc.cpp; sourceTree = "<group>"; };
+		124FE1A52A666F9500C72419 /* stereo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stereo.h; sourceTree = "<group>"; };
+		124FE1A62A666F9500C72419 /* rvlcconceal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rvlcconceal.cpp; sourceTree = "<group>"; };
+		124FE1A72A666F9500C72419 /* aacdec_drc_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aacdec_drc_types.h; sourceTree = "<group>"; };
+		124FE1A82A666F9500C72419 /* rvlc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rvlc.h; sourceTree = "<group>"; };
+		124FE1A92A666F9500C72419 /* channel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = channel.cpp; sourceTree = "<group>"; };
+		124FE1AA2A666F9500C72419 /* aacdec_hcrs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aacdec_hcrs.cpp; sourceTree = "<group>"; };
+		124FE1AB2A666F9500C72419 /* block.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = block.cpp; sourceTree = "<group>"; };
+		124FE1AC2A666F9500C72419 /* aacdec_hcr_bit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aacdec_hcr_bit.h; sourceTree = "<group>"; };
+		124FE1AD2A666F9500C72419 /* rvlcbit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rvlcbit.h; sourceTree = "<group>"; };
+		124FE1AE2A666F9500C72419 /* aacdec_hcr_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aacdec_hcr_types.h; sourceTree = "<group>"; };
+		124FE1AF2A666F9500C72419 /* usacdec_ace_d4t64.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = usacdec_ace_d4t64.cpp; sourceTree = "<group>"; };
+		124FE1B02A666F9500C72419 /* channelinfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = channelinfo.cpp; sourceTree = "<group>"; };
+		124FE1B12A666F9500C72419 /* usacdec_fac.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = usacdec_fac.cpp; sourceTree = "<group>"; };
+		124FE1B22A666F9500C72419 /* aac_ram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aac_ram.cpp; sourceTree = "<group>"; };
+		124FE1B32A666F9500C72419 /* stereo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stereo.cpp; sourceTree = "<group>"; };
+		124FE1B42A666F9500C72419 /* usacdec_acelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = usacdec_acelp.h; sourceTree = "<group>"; };
+		124FE1B52A666F9500C72419 /* aacdecoder_lib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aacdecoder_lib.cpp; sourceTree = "<group>"; };
+		124FE1B62A666F9500C72419 /* rvlc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rvlc.cpp; sourceTree = "<group>"; };
+		124FE1B72A666F9500C72419 /* ldfiltbank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ldfiltbank.h; sourceTree = "<group>"; };
+		124FE1B82A666F9500C72419 /* usacdec_lpc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = usacdec_lpc.h; sourceTree = "<group>"; };
+		124FE1B92A666F9500C72419 /* aacdec_hcr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aacdec_hcr.h; sourceTree = "<group>"; };
+		124FE1BA2A666F9500C72419 /* conceal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conceal.h; sourceTree = "<group>"; };
+		124FE1BB2A666F9500C72419 /* aacdec_hcr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aacdec_hcr.cpp; sourceTree = "<group>"; };
+		124FE1BC2A666F9500C72419 /* pulsedata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pulsedata.h; sourceTree = "<group>"; };
+		124FE1BD2A666F9500C72419 /* rvlcbit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rvlcbit.cpp; sourceTree = "<group>"; };
+		124FE1BE2A666F9500C72419 /* usacdec_ace_ltp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = usacdec_ace_ltp.cpp; sourceTree = "<group>"; };
+		124FE1BF2A666F9500C72419 /* usacdec_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = usacdec_rom.h; sourceTree = "<group>"; };
+		124FE1C02A666F9500C72419 /* aac_rom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aac_rom.cpp; sourceTree = "<group>"; };
+		124FE1C12A666F9500C72419 /* aacdec_drc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aacdec_drc.h; sourceTree = "<group>"; };
+		124FE1C22A666F9500C72419 /* usacdec_const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = usacdec_const.h; sourceTree = "<group>"; };
+		124FE1C32A666F9500C72419 /* aac_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aac_rom.h; sourceTree = "<group>"; };
+		124FE1C42A666F9500C72419 /* block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = block.h; sourceTree = "<group>"; };
+		124FE1C52A666F9500C72419 /* aacdec_hcrs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aacdec_hcrs.h; sourceTree = "<group>"; };
+		124FE1C62A666F9500C72419 /* usacdec_ace_d4t64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = usacdec_ace_d4t64.h; sourceTree = "<group>"; };
+		124FE1C72A666F9500C72419 /* aacdec_tns.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aacdec_tns.cpp; sourceTree = "<group>"; };
+		124FE1C82A666F9500C72419 /* usacdec_acelp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = usacdec_acelp.cpp; sourceTree = "<group>"; };
+		124FE1CA2A666F9500C72419 /* block_arm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = block_arm.cpp; sourceTree = "<group>"; };
+		124FE1CB2A666F9500C72419 /* usacdec_ace_ltp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = usacdec_ace_ltp.h; sourceTree = "<group>"; };
+		124FE1CC2A666F9500C72419 /* rvlcconceal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rvlcconceal.h; sourceTree = "<group>"; };
+		124FE1CD2A666F9500C72419 /* aacdec_drc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aacdec_drc.cpp; sourceTree = "<group>"; };
+		124FE1CE2A666F9500C72419 /* pulsedata.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pulsedata.cpp; sourceTree = "<group>"; };
+		124FE1CF2A666F9500C72419 /* usacdec_lpd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = usacdec_lpd.h; sourceTree = "<group>"; };
+		124FE1D02A666F9500C72419 /* aac_ram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aac_ram.h; sourceTree = "<group>"; };
+		124FE1D12A666F9500C72419 /* usacdec_rom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = usacdec_rom.cpp; sourceTree = "<group>"; };
+		124FE1D22A666F9500C72419 /* channelinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = channelinfo.h; sourceTree = "<group>"; };
+		124FE1D32A666F9500C72419 /* ldfiltbank.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ldfiltbank.cpp; sourceTree = "<group>"; };
+		124FE1D42A666F9500C72419 /* usacdec_fac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = usacdec_fac.h; sourceTree = "<group>"; };
+		124FE1D52A666F9500C72419 /* aacdec_hcr_bit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aacdec_hcr_bit.cpp; sourceTree = "<group>"; };
+		124FE1D62A666F9500C72419 /* aacdecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aacdecoder.h; sourceTree = "<group>"; };
+		124FE1D72A666F9500C72419 /* conceal_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conceal_types.h; sourceTree = "<group>"; };
+		124FE1D82A666F9500C72419 /* aacdec_pns.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aacdec_pns.cpp; sourceTree = "<group>"; };
+		124FE1DB2A666F9500C72419 /* fft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fft.h; sourceTree = "<group>"; };
+		124FE1DC2A666F9500C72419 /* FDK_decorrelate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDK_decorrelate.h; sourceTree = "<group>"; };
+		124FE1DD2A666F9500C72419 /* cplx_mul.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cplx_mul.h; sourceTree = "<group>"; };
+		124FE1DE2A666F9500C72419 /* scramble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scramble.h; sourceTree = "<group>"; };
+		124FE1DF2A666F9500C72419 /* scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scale.h; sourceTree = "<group>"; };
+		124FE1E02A666F9500C72419 /* fixmul.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fixmul.h; sourceTree = "<group>"; };
+		124FE1E12A666F9500C72419 /* FDK_hybrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDK_hybrid.h; sourceTree = "<group>"; };
+		124FE1E22A666F9500C72419 /* FDK_bitstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDK_bitstream.h; sourceTree = "<group>"; };
+		124FE1E32A666F9500C72419 /* dct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dct.h; sourceTree = "<group>"; };
+		124FE1E42A666F9500C72419 /* FDK_tools_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDK_tools_rom.h; sourceTree = "<group>"; };
+		124FE1E52A666F9500C72419 /* FDK_trigFcts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDK_trigFcts.h; sourceTree = "<group>"; };
+		124FE1E62A666F9500C72419 /* fft_rad2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fft_rad2.h; sourceTree = "<group>"; };
+		124FE1E82A666F9500C72419 /* clz_ppc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clz_ppc.h; sourceTree = "<group>"; };
+		124FE1E92A666F9500C72419 /* fixmul_ppc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fixmul_ppc.h; sourceTree = "<group>"; };
+		124FE1EA2A666F9500C72419 /* qmf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qmf.h; sourceTree = "<group>"; };
+		124FE1EB2A666F9500C72419 /* clz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clz.h; sourceTree = "<group>"; };
+		124FE1EC2A666F9500C72419 /* FDK_archdef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDK_archdef.h; sourceTree = "<group>"; };
+		124FE1ED2A666F9500C72419 /* abs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = abs.h; sourceTree = "<group>"; };
+		124FE1EE2A666F9500C72419 /* autocorr2nd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = autocorr2nd.h; sourceTree = "<group>"; };
+		124FE1EF2A666F9500C72419 /* fixpoint_math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fixpoint_math.h; sourceTree = "<group>"; };
+		124FE1F02A666F9500C72419 /* FDK_core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDK_core.h; sourceTree = "<group>"; };
+		124FE1F22A666F9500C72419 /* abs_mips.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = abs_mips.h; sourceTree = "<group>"; };
+		124FE1F32A666F9500C72419 /* scale_mips.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scale_mips.h; sourceTree = "<group>"; };
+		124FE1F42A666F9500C72419 /* cplx_mul_mips.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cplx_mul_mips.h; sourceTree = "<group>"; };
+		124FE1F52A666F9500C72419 /* scramble_mips.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scramble_mips.h; sourceTree = "<group>"; };
+		124FE1F62A666F9500C72419 /* clz_mips.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clz_mips.h; sourceTree = "<group>"; };
+		124FE1F72A666F9500C72419 /* fixmul_mips.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fixmul_mips.h; sourceTree = "<group>"; };
+		124FE1F82A666F9500C72419 /* common_fix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common_fix.h; sourceTree = "<group>"; };
+		124FE1F92A666F9500C72419 /* FDK_crc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDK_crc.h; sourceTree = "<group>"; };
+		124FE1FA2A666F9500C72419 /* FDK_lpc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDK_lpc.h; sourceTree = "<group>"; };
+		124FE1FC2A666F9500C72419 /* fixmul_x86.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fixmul_x86.h; sourceTree = "<group>"; };
+		124FE1FD2A666F9500C72419 /* fixpoint_math_x86.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fixpoint_math_x86.h; sourceTree = "<group>"; };
+		124FE1FE2A666F9500C72419 /* clz_x86.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clz_x86.h; sourceTree = "<group>"; };
+		124FE1FF2A666F9500C72419 /* abs_x86.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = abs_x86.h; sourceTree = "<group>"; };
+		124FE2002A666F9500C72419 /* fixminmax.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fixminmax.h; sourceTree = "<group>"; };
+		124FE2012A666F9500C72419 /* huff_nodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = huff_nodes.h; sourceTree = "<group>"; };
+		124FE2022A666F9500C72419 /* FDK_matrixCalloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDK_matrixCalloc.h; sourceTree = "<group>"; };
+		124FE2032A666F9500C72419 /* qmf_pcm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qmf_pcm.h; sourceTree = "<group>"; };
+		124FE2042A666F9500C72419 /* nlc_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nlc_dec.h; sourceTree = "<group>"; };
+		124FE2052A666F9500C72419 /* fixmadd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fixmadd.h; sourceTree = "<group>"; };
+		124FE2072A666F9500C72419 /* scramble_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scramble_arm.h; sourceTree = "<group>"; };
+		124FE2082A666F9500C72419 /* fixmul_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fixmul_arm.h; sourceTree = "<group>"; };
+		124FE2092A666F9500C72419 /* clz_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clz_arm.h; sourceTree = "<group>"; };
+		124FE20A2A666F9500C72419 /* cplx_mul_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cplx_mul_arm.h; sourceTree = "<group>"; };
+		124FE20B2A666F9500C72419 /* fixmadd_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fixmadd_arm.h; sourceTree = "<group>"; };
+		124FE20C2A666F9500C72419 /* scale_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scale_arm.h; sourceTree = "<group>"; };
+		124FE20D2A666F9500C72419 /* mdct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mdct.h; sourceTree = "<group>"; };
+		124FE20E2A666F9500C72419 /* FDK_bitbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDK_bitbuffer.h; sourceTree = "<group>"; };
+		124FE20F2A666F9500C72419 /* FDK_qmf_domain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDK_qmf_domain.h; sourceTree = "<group>"; };
+		124FE2112A666F9500C72419 /* FDK_core.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FDK_core.cpp; sourceTree = "<group>"; };
+		124FE2122A666F9500C72419 /* FDK_trigFcts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FDK_trigFcts.cpp; sourceTree = "<group>"; };
+		124FE2132A666F9500C72419 /* mdct.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mdct.cpp; sourceTree = "<group>"; };
+		124FE2142A666F9500C72419 /* FDK_matrixCalloc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FDK_matrixCalloc.cpp; sourceTree = "<group>"; };
+		124FE2152A666F9500C72419 /* fft.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fft.cpp; sourceTree = "<group>"; };
+		124FE2162A666F9500C72419 /* FDK_bitbuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FDK_bitbuffer.cpp; sourceTree = "<group>"; };
+		124FE2172A666F9500C72419 /* nlc_dec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nlc_dec.cpp; sourceTree = "<group>"; };
+		124FE2182A666F9500C72419 /* autocorr2nd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = autocorr2nd.cpp; sourceTree = "<group>"; };
+		124FE2192A666F9500C72419 /* huff_nodes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = huff_nodes.cpp; sourceTree = "<group>"; };
+		124FE21A2A666F9500C72419 /* FDK_hybrid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FDK_hybrid.cpp; sourceTree = "<group>"; };
+		124FE21C2A666F9500C72419 /* fft_rad2_mips.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fft_rad2_mips.cpp; sourceTree = "<group>"; };
+		124FE21D2A666F9500C72419 /* mips_fft_twiddles.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mips_fft_twiddles.cpp; sourceTree = "<group>"; };
+		124FE21E2A666F9500C72419 /* scale_mips.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scale_mips.cpp; sourceTree = "<group>"; };
+		124FE21F2A666F9500C72419 /* FDK_lpc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FDK_lpc.cpp; sourceTree = "<group>"; };
+		124FE2202A666F9500C72419 /* fft_rad2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fft_rad2.cpp; sourceTree = "<group>"; };
+		124FE2212A666F9500C72419 /* FDK_qmf_domain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FDK_qmf_domain.cpp; sourceTree = "<group>"; };
+		124FE2232A666F9500C72419 /* fft_rad2_arm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fft_rad2_arm.cpp; sourceTree = "<group>"; };
+		124FE2242A666F9500C72419 /* scale_arm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scale_arm.cpp; sourceTree = "<group>"; };
+		124FE2252A666F9500C72419 /* fixpoint_math.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fixpoint_math.cpp; sourceTree = "<group>"; };
+		124FE2262A666F9500C72419 /* scale.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scale.cpp; sourceTree = "<group>"; };
+		124FE2272A666F9500C72419 /* FDK_decorrelate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FDK_decorrelate.cpp; sourceTree = "<group>"; };
+		124FE2282A666F9500C72419 /* dct.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dct.cpp; sourceTree = "<group>"; };
+		124FE2292A666F9500C72419 /* FDK_crc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FDK_crc.cpp; sourceTree = "<group>"; };
+		124FE22A2A666F9500C72419 /* FDK_tools_rom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FDK_tools_rom.cpp; sourceTree = "<group>"; };
+		124FE22B2A666F9500C72419 /* qmf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = qmf.cpp; sourceTree = "<group>"; };
+		124FE22E2A666F9500C72419 /* aacenc_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aacenc_lib.h; sourceTree = "<group>"; };
+		124FE2302A666F9500C72419 /* metadata_compressor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = metadata_compressor.cpp; sourceTree = "<group>"; };
+		124FE2312A666F9500C72419 /* psy_main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = psy_main.h; sourceTree = "<group>"; };
+		124FE2322A666F9500C72419 /* pnsparam.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pnsparam.cpp; sourceTree = "<group>"; };
+		124FE2332A666F9500C72419 /* quantize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quantize.h; sourceTree = "<group>"; };
+		124FE2342A666F9500C72419 /* grp_data.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = grp_data.cpp; sourceTree = "<group>"; };
+		124FE2352A666F9500C72419 /* tonality.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tonality.cpp; sourceTree = "<group>"; };
+		124FE2362A666F9500C72419 /* metadata_compressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metadata_compressor.h; sourceTree = "<group>"; };
+		124FE2372A666F9500C72419 /* grp_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = grp_data.h; sourceTree = "<group>"; };
+		124FE2382A666F9500C72419 /* aacenc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aacenc.cpp; sourceTree = "<group>"; };
+		124FE2392A666F9500C72419 /* pnsparam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pnsparam.h; sourceTree = "<group>"; };
+		124FE23A2A666F9500C72419 /* block_switch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = block_switch.h; sourceTree = "<group>"; };
+		124FE23B2A666F9500C72419 /* qc_main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qc_main.h; sourceTree = "<group>"; };
+		124FE23C2A666F9500C72419 /* bitenc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bitenc.cpp; sourceTree = "<group>"; };
+		124FE23D2A666F9500C72419 /* ms_stereo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ms_stereo.h; sourceTree = "<group>"; };
+		124FE23E2A666F9500C72419 /* aacenc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aacenc.h; sourceTree = "<group>"; };
+		124FE23F2A666F9500C72419 /* noisedet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = noisedet.h; sourceTree = "<group>"; };
+		124FE2402A666F9500C72419 /* pre_echo_control.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pre_echo_control.h; sourceTree = "<group>"; };
+		124FE2412A666F9500C72419 /* dyn_bits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dyn_bits.h; sourceTree = "<group>"; };
+		124FE2422A666F9500C72419 /* tonality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tonality.h; sourceTree = "<group>"; };
+		124FE2432A666F9500C72419 /* psy_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = psy_data.h; sourceTree = "<group>"; };
+		124FE2442A666F9500C72419 /* noisedet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = noisedet.cpp; sourceTree = "<group>"; };
+		124FE2452A666F9500C72419 /* aacEnc_ram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aacEnc_ram.cpp; sourceTree = "<group>"; };
+		124FE2462A666F9500C72419 /* band_nrg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = band_nrg.cpp; sourceTree = "<group>"; };
+		124FE2472A666F9500C72419 /* dyn_bits.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dyn_bits.cpp; sourceTree = "<group>"; };
+		124FE2482A666F9500C72419 /* channel_map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = channel_map.h; sourceTree = "<group>"; };
+		124FE2492A666F9500C72419 /* tns_func.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tns_func.h; sourceTree = "<group>"; };
+		124FE24A2A666F9500C72419 /* intensity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = intensity.h; sourceTree = "<group>"; };
+		124FE24B2A666F9500C72419 /* psy_configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = psy_configuration.h; sourceTree = "<group>"; };
+		124FE24C2A666F9500C72419 /* qc_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qc_data.h; sourceTree = "<group>"; };
+		124FE24D2A666F9500C72419 /* spreading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spreading.h; sourceTree = "<group>"; };
+		124FE24E2A666F9500C72419 /* adj_thr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adj_thr.h; sourceTree = "<group>"; };
+		124FE24F2A666F9500C72419 /* line_pe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = line_pe.h; sourceTree = "<group>"; };
+		124FE2502A666F9500C72419 /* aacEnc_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aacEnc_rom.h; sourceTree = "<group>"; };
+		124FE2512A666F9500C72419 /* interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interface.h; sourceTree = "<group>"; };
+		124FE2522A666F9500C72419 /* mps_main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mps_main.h; sourceTree = "<group>"; };
+		124FE2532A666F9500C72419 /* bit_cnt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bit_cnt.h; sourceTree = "<group>"; };
+		124FE2542A666F9500C72419 /* aacenc_lib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aacenc_lib.cpp; sourceTree = "<group>"; };
+		124FE2552A666F9500C72419 /* bandwidth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bandwidth.cpp; sourceTree = "<group>"; };
+		124FE2562A666F9500C72419 /* aacenc_tns.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aacenc_tns.cpp; sourceTree = "<group>"; };
+		124FE2572A666F9500C72419 /* transform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = transform.cpp; sourceTree = "<group>"; };
+		124FE2582A666F9500C72419 /* aacEnc_rom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aacEnc_rom.cpp; sourceTree = "<group>"; };
+		124FE2592A666F9500C72419 /* bitenc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitenc.h; sourceTree = "<group>"; };
+		124FE25A2A666F9500C72419 /* chaosmeasure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chaosmeasure.h; sourceTree = "<group>"; };
+		124FE25B2A666F9500C72419 /* band_nrg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = band_nrg.h; sourceTree = "<group>"; };
+		124FE25C2A666F9500C72419 /* pre_echo_control.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pre_echo_control.cpp; sourceTree = "<group>"; };
+		124FE25D2A666F9500C72419 /* chaosmeasure.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = chaosmeasure.cpp; sourceTree = "<group>"; };
+		124FE25E2A666F9500C72419 /* block_switch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = block_switch.cpp; sourceTree = "<group>"; };
+		124FE25F2A666F9500C72419 /* line_pe.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = line_pe.cpp; sourceTree = "<group>"; };
+		124FE2602A666F9500C72419 /* transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = transform.h; sourceTree = "<group>"; };
+		124FE2612A666F9500C72419 /* aacenc_pns.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aacenc_pns.cpp; sourceTree = "<group>"; };
+		124FE2622A666F9500C72419 /* qc_main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = qc_main.cpp; sourceTree = "<group>"; };
+		124FE2632A666F9500C72419 /* bit_cnt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bit_cnt.cpp; sourceTree = "<group>"; };
+		124FE2642A666F9500C72419 /* pns_func.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pns_func.h; sourceTree = "<group>"; };
+		124FE2652A666F9500C72419 /* psy_const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = psy_const.h; sourceTree = "<group>"; };
+		124FE2662A666F9500C72419 /* quantize.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = quantize.cpp; sourceTree = "<group>"; };
+		124FE2672A666F9500C72419 /* metadata_main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metadata_main.h; sourceTree = "<group>"; };
+		124FE2682A666F9500C72419 /* mps_main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mps_main.cpp; sourceTree = "<group>"; };
+		124FE2692A666F9500C72419 /* psy_configuration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = psy_configuration.cpp; sourceTree = "<group>"; };
+		124FE26A2A666F9500C72419 /* intensity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = intensity.cpp; sourceTree = "<group>"; };
+		124FE26B2A666F9500C72419 /* aacenc_tns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aacenc_tns.h; sourceTree = "<group>"; };
+		124FE26C2A666F9500C72419 /* aacEnc_ram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aacEnc_ram.h; sourceTree = "<group>"; };
+		124FE26D2A666F9500C72419 /* ms_stereo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ms_stereo.cpp; sourceTree = "<group>"; };
+		124FE26E2A666F9500C72419 /* bandwidth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bandwidth.h; sourceTree = "<group>"; };
+		124FE26F2A666F9500C72419 /* sf_estim.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sf_estim.cpp; sourceTree = "<group>"; };
+		124FE2702A666F9500C72419 /* adj_thr_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adj_thr_data.h; sourceTree = "<group>"; };
+		124FE2712A666F9500C72419 /* aacenc_pns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aacenc_pns.h; sourceTree = "<group>"; };
+		124FE2722A666F9500C72419 /* metadata_main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = metadata_main.cpp; sourceTree = "<group>"; };
+		124FE2732A666F9500C72419 /* psy_main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = psy_main.cpp; sourceTree = "<group>"; };
+		124FE2742A666F9500C72419 /* adj_thr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = adj_thr.cpp; sourceTree = "<group>"; };
+		124FE2752A666F9500C72419 /* channel_map.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = channel_map.cpp; sourceTree = "<group>"; };
+		124FE2762A666F9500C72419 /* sf_estim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sf_estim.h; sourceTree = "<group>"; };
+		124FE2772A666F9500C72419 /* spreading.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = spreading.cpp; sourceTree = "<group>"; };
+		124FE27A2A666F9500C72419 /* ac_arith_coder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ac_arith_coder.h; sourceTree = "<group>"; };
+		124FE27C2A666F9500C72419 /* ac_arith_coder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ac_arith_coder.cpp; sourceTree = "<group>"; };
+		124FE27F2A666F9500C72419 /* FDK_drcDecLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDK_drcDecLib.h; sourceTree = "<group>"; };
+		124FE2812A666F9500C72419 /* drcDec_tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drcDec_tools.h; sourceTree = "<group>"; };
+		124FE2822A666F9500C72419 /* drcGainDec_init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drcGainDec_init.h; sourceTree = "<group>"; };
+		124FE2832A666F9500C72419 /* drcDec_rom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = drcDec_rom.cpp; sourceTree = "<group>"; };
+		124FE2842A666F9500C72419 /* drcDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drcDecoder.h; sourceTree = "<group>"; };
+		124FE2852A666F9500C72419 /* drcGainDec_preprocess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drcGainDec_preprocess.h; sourceTree = "<group>"; };
+		124FE2862A666F9500C72419 /* drcDec_reader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = drcDec_reader.cpp; sourceTree = "<group>"; };
+		124FE2872A666F9500C72419 /* drcGainDec_process.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = drcGainDec_process.cpp; sourceTree = "<group>"; };
+		124FE2882A666F9500C72419 /* drcDec_selectionProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drcDec_selectionProcess.h; sourceTree = "<group>"; };
+		124FE2892A666F9500C72419 /* drcDec_selectionProcess.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = drcDec_selectionProcess.cpp; sourceTree = "<group>"; };
+		124FE28A2A666F9500C72419 /* drcDec_gainDecoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = drcDec_gainDecoder.cpp; sourceTree = "<group>"; };
+		124FE28B2A666F9500C72419 /* drcDec_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drcDec_rom.h; sourceTree = "<group>"; };
+		124FE28C2A666F9500C72419 /* FDK_drcDecLib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FDK_drcDecLib.cpp; sourceTree = "<group>"; };
+		124FE28D2A666F9500C72419 /* drcDec_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drcDec_types.h; sourceTree = "<group>"; };
+		124FE28E2A666F9500C72419 /* drcDec_reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drcDec_reader.h; sourceTree = "<group>"; };
+		124FE28F2A666F9500C72419 /* drcGainDec_preprocess.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = drcGainDec_preprocess.cpp; sourceTree = "<group>"; };
+		124FE2902A666F9500C72419 /* drcGainDec_init.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = drcGainDec_init.cpp; sourceTree = "<group>"; };
+		124FE2912A666F9500C72419 /* drcDec_tools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = drcDec_tools.cpp; sourceTree = "<group>"; };
+		124FE2922A666F9500C72419 /* drcDec_gainDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drcDec_gainDecoder.h; sourceTree = "<group>"; };
+		124FE2932A666F9500C72419 /* drcGainDec_process.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drcGainDec_process.h; sourceTree = "<group>"; };
+		124FE2962A666F9500C72419 /* sac_dec_errorcodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sac_dec_errorcodes.h; sourceTree = "<group>"; };
+		124FE2972A666F9500C72419 /* sac_dec_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sac_dec_lib.h; sourceTree = "<group>"; };
+		124FE2992A666F9500C72419 /* sac_dec_conceal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sac_dec_conceal.h; sourceTree = "<group>"; };
+		124FE29A2A666F9500C72419 /* sac_process.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sac_process.cpp; sourceTree = "<group>"; };
+		124FE29B2A666F9500C72419 /* sac_calcM1andM2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sac_calcM1andM2.cpp; sourceTree = "<group>"; };
+		124FE29C2A666F9500C72419 /* sac_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sac_rom.h; sourceTree = "<group>"; };
+		124FE29D2A666F9500C72419 /* sac_qmf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sac_qmf.h; sourceTree = "<group>"; };
+		124FE29E2A666F9500C72419 /* sac_stp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sac_stp.h; sourceTree = "<group>"; };
+		124FE29F2A666F9500C72419 /* sac_calcM1andM2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sac_calcM1andM2.h; sourceTree = "<group>"; };
+		124FE2A02A666F9500C72419 /* sac_dec_interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sac_dec_interface.h; sourceTree = "<group>"; };
+		124FE2A12A666F9500C72419 /* sac_dec_lib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sac_dec_lib.cpp; sourceTree = "<group>"; };
+		124FE2A22A666F9500C72419 /* sac_tsd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sac_tsd.h; sourceTree = "<group>"; };
+		124FE2A32A666F9500C72419 /* sac_dec_ssc_struct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sac_dec_ssc_struct.h; sourceTree = "<group>"; };
+		124FE2A42A666F9500C72419 /* sac_smoothing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sac_smoothing.cpp; sourceTree = "<group>"; };
+		124FE2A52A666F9500C72419 /* sac_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sac_dec.h; sourceTree = "<group>"; };
+		124FE2A62A666F9500C72419 /* sac_smoothing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sac_smoothing.h; sourceTree = "<group>"; };
+		124FE2A72A666F9500C72419 /* sac_stp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sac_stp.cpp; sourceTree = "<group>"; };
+		124FE2A82A666F9500C72419 /* sac_process.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sac_process.h; sourceTree = "<group>"; };
+		124FE2A92A666F9500C72419 /* sac_qmf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sac_qmf.cpp; sourceTree = "<group>"; };
+		124FE2AA2A666F9500C72419 /* sac_tsd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sac_tsd.cpp; sourceTree = "<group>"; };
+		124FE2AB2A666F9500C72419 /* sac_bitdec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sac_bitdec.h; sourceTree = "<group>"; };
+		124FE2AC2A666F9500C72419 /* sac_reshapeBBEnv.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sac_reshapeBBEnv.cpp; sourceTree = "<group>"; };
+		124FE2AD2A666F9500C72419 /* sac_reshapeBBEnv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sac_reshapeBBEnv.h; sourceTree = "<group>"; };
+		124FE2AE2A666F9500C72419 /* sac_dec_conceal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sac_dec_conceal.cpp; sourceTree = "<group>"; };
+		124FE2AF2A666F9500C72419 /* sac_dec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sac_dec.cpp; sourceTree = "<group>"; };
+		124FE2B02A666F9500C72419 /* sac_rom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sac_rom.cpp; sourceTree = "<group>"; };
+		124FE2B12A666F9500C72419 /* sac_bitdec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sac_bitdec.cpp; sourceTree = "<group>"; };
+		124FE2B42A666F9500C72419 /* genericStds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = genericStds.h; sourceTree = "<group>"; };
+		124FE2B52A666F9500C72419 /* syslib_channelMapDescr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = syslib_channelMapDescr.h; sourceTree = "<group>"; };
+		124FE2B62A666F9500C72419 /* FDK_audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDK_audio.h; sourceTree = "<group>"; };
+		124FE2B72A666F9500C72419 /* machine_type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = machine_type.h; sourceTree = "<group>"; };
+		124FE2B92A666F9500C72419 /* syslib_channelMapDescr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = syslib_channelMapDescr.cpp; sourceTree = "<group>"; };
+		124FE2BA2A666F9500C72419 /* genericStds.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = genericStds.cpp; sourceTree = "<group>"; };
+		124FE2BD2A666F9500C72419 /* sbrdecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sbrdecoder.h; sourceTree = "<group>"; };
+		124FE2BF2A666F9500C72419 /* lpp_tran.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lpp_tran.cpp; sourceTree = "<group>"; };
+		124FE2C02A666F9500C72419 /* sbr_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sbr_dec.h; sourceTree = "<group>"; };
+		124FE2C12A666F9500C72419 /* sbr_ram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sbr_ram.h; sourceTree = "<group>"; };
+		124FE2C22A666F9500C72419 /* env_calc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = env_calc.h; sourceTree = "<group>"; };
+		124FE2C32A666F9500C72419 /* HFgen_preFlat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFgen_preFlat.h; sourceTree = "<group>"; };
+		124FE2C42A666F9500C72419 /* hbe.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hbe.cpp; sourceTree = "<group>"; };
+		124FE2C52A666F9500C72419 /* psdec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = psdec.cpp; sourceTree = "<group>"; };
+		124FE2C62A666F9500C72419 /* env_extr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = env_extr.cpp; sourceTree = "<group>"; };
+		124FE2C72A666F9500C72419 /* sbrdec_drc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sbrdec_drc.h; sourceTree = "<group>"; };
+		124FE2C82A666F9500C72419 /* sbrdec_freq_sca.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sbrdec_freq_sca.h; sourceTree = "<group>"; };
+		124FE2C92A666F9500C72419 /* huff_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = huff_dec.h; sourceTree = "<group>"; };
+		124FE2CA2A666F9500C72419 /* sbr_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sbr_rom.h; sourceTree = "<group>"; };
+		124FE2CB2A666F9500C72419 /* sbrdecoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sbrdecoder.cpp; sourceTree = "<group>"; };
+		124FE2CC2A666F9500C72419 /* env_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = env_dec.h; sourceTree = "<group>"; };
+		124FE2CD2A666F9500C72419 /* env_calc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = env_calc.cpp; sourceTree = "<group>"; };
+		124FE2CE2A666F9500C72419 /* sbr_ram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sbr_ram.cpp; sourceTree = "<group>"; };
+		124FE2CF2A666F9500C72419 /* sbrdec_freq_sca.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sbrdec_freq_sca.cpp; sourceTree = "<group>"; };
+		124FE2D02A666F9500C72419 /* pvc_dec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pvc_dec.cpp; sourceTree = "<group>"; };
+		124FE2D12A666F9500C72419 /* huff_dec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = huff_dec.cpp; sourceTree = "<group>"; };
+		124FE2D22A666F9500C72419 /* pvc_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pvc_dec.h; sourceTree = "<group>"; };
+		124FE2D32A666F9500C72419 /* psdec_drm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = psdec_drm.h; sourceTree = "<group>"; };
+		124FE2D42A666F9500C72419 /* hbe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hbe.h; sourceTree = "<group>"; };
+		124FE2D52A666F9500C72419 /* sbrdec_drc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sbrdec_drc.cpp; sourceTree = "<group>"; };
+		124FE2D62A666F9500C72419 /* lpp_tran.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lpp_tran.h; sourceTree = "<group>"; };
+		124FE2D72A666F9500C72419 /* sbr_deb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sbr_deb.cpp; sourceTree = "<group>"; };
+		124FE2D82A666F9500C72419 /* psbitdec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = psbitdec.cpp; sourceTree = "<group>"; };
+		124FE2D92A666F9500C72419 /* sbr_rom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sbr_rom.cpp; sourceTree = "<group>"; };
+		124FE2DA2A666F9500C72419 /* sbr_dec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sbr_dec.cpp; sourceTree = "<group>"; };
+		124FE2DB2A666F9500C72419 /* psdecrom_drm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = psdecrom_drm.cpp; sourceTree = "<group>"; };
+		124FE2DC2A666F9500C72419 /* HFgen_preFlat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HFgen_preFlat.cpp; sourceTree = "<group>"; };
+		124FE2DD2A666F9500C72419 /* transcendent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = transcendent.h; sourceTree = "<group>"; };
+		124FE2DE2A666F9500C72419 /* sbr_deb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sbr_deb.h; sourceTree = "<group>"; };
+		124FE2DF2A666F9500C72419 /* psdec_drm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = psdec_drm.cpp; sourceTree = "<group>"; };
+		124FE2E02A666F9500C72419 /* env_dec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = env_dec.cpp; sourceTree = "<group>"; };
+		124FE2E12A666F9500C72419 /* env_extr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = env_extr.h; sourceTree = "<group>"; };
+		124FE2E22A666F9500C72419 /* psbitdec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = psbitdec.h; sourceTree = "<group>"; };
+		124FE2E32A666F9500C72419 /* psdec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = psdec.h; sourceTree = "<group>"; };
+		124FE2E62A666F9500C72419 /* pcmdmx_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcmdmx_lib.h; sourceTree = "<group>"; };
+		124FE2E72A666F9500C72419 /* pcm_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcm_utils.h; sourceTree = "<group>"; };
+		124FE2E82A666F9500C72419 /* limiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = limiter.h; sourceTree = "<group>"; };
+		124FE2EA2A666F9500C72419 /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		124FE2EB2A666F9500C72419 /* limiter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = limiter.cpp; sourceTree = "<group>"; };
+		124FE2EC2A666F9500C72419 /* pcmdmx_lib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pcmdmx_lib.cpp; sourceTree = "<group>"; };
+		124FE2ED2A666F9500C72419 /* pcm_utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pcm_utils.cpp; sourceTree = "<group>"; };
+		124FE2F02A666F9600C72419 /* tp_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tp_data.h; sourceTree = "<group>"; };
+		124FE2F12A666F9600C72419 /* tpdec_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tpdec_lib.h; sourceTree = "<group>"; };
+		124FE2F32A666F9600C72419 /* tpdec_asc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tpdec_asc.cpp; sourceTree = "<group>"; };
+		124FE2F42A666F9600C72419 /* tpdec_adif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tpdec_adif.h; sourceTree = "<group>"; };
+		124FE2F52A666F9600C72419 /* tp_version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tp_version.h; sourceTree = "<group>"; };
+		124FE2F62A666F9600C72419 /* tpdec_adif.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tpdec_adif.cpp; sourceTree = "<group>"; };
+		124FE2F72A666F9600C72419 /* tpdec_lib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tpdec_lib.cpp; sourceTree = "<group>"; };
+		124FE2F82A666F9600C72419 /* tpdec_adts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tpdec_adts.h; sourceTree = "<group>"; };
+		124FE2F92A666F9600C72419 /* tpdec_drm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tpdec_drm.h; sourceTree = "<group>"; };
+		124FE2FA2A666F9600C72419 /* tpdec_latm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tpdec_latm.cpp; sourceTree = "<group>"; };
+		124FE2FB2A666F9600C72419 /* tpdec_drm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tpdec_drm.cpp; sourceTree = "<group>"; };
+		124FE2FC2A666F9600C72419 /* tpdec_adts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tpdec_adts.cpp; sourceTree = "<group>"; };
+		124FE2FD2A666F9600C72419 /* tpdec_latm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tpdec_latm.h; sourceTree = "<group>"; };
+		124FE3002A666F9600C72419 /* sacenc_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sacenc_lib.h; sourceTree = "<group>"; };
+		124FE3022A666F9600C72419 /* sacenc_dmx_tdom_enh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sacenc_dmx_tdom_enh.h; sourceTree = "<group>"; };
+		124FE3032A666F9600C72419 /* sacenc_delay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sacenc_delay.cpp; sourceTree = "<group>"; };
+		124FE3042A666F9600C72419 /* sacenc_nlc_enc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sacenc_nlc_enc.h; sourceTree = "<group>"; };
+		124FE3052A666F9600C72419 /* sacenc_onsetdetect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sacenc_onsetdetect.h; sourceTree = "<group>"; };
+		124FE3062A666F9600C72419 /* sacenc_filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sacenc_filter.h; sourceTree = "<group>"; };
+		124FE3072A666F9600C72419 /* sacenc_vectorfunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sacenc_vectorfunctions.h; sourceTree = "<group>"; };
+		124FE3082A666F9600C72419 /* sacenc_vectorfunctions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sacenc_vectorfunctions.cpp; sourceTree = "<group>"; };
+		124FE3092A666F9600C72419 /* sacenc_bitstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sacenc_bitstream.h; sourceTree = "<group>"; };
+		124FE30A2A666F9600C72419 /* sacenc_framewindowing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sacenc_framewindowing.cpp; sourceTree = "<group>"; };
+		124FE30B2A666F9600C72419 /* sacenc_delay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sacenc_delay.h; sourceTree = "<group>"; };
+		124FE30C2A666F9600C72419 /* sacenc_paramextract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sacenc_paramextract.h; sourceTree = "<group>"; };
+		124FE30D2A666F9600C72419 /* sacenc_huff_tab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sacenc_huff_tab.h; sourceTree = "<group>"; };
+		124FE30E2A666F9600C72419 /* sacenc_const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sacenc_const.h; sourceTree = "<group>"; };
+		124FE30F2A666F9600C72419 /* sacenc_huff_tab.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sacenc_huff_tab.cpp; sourceTree = "<group>"; };
+		124FE3102A666F9600C72419 /* sacenc_filter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sacenc_filter.cpp; sourceTree = "<group>"; };
+		124FE3112A666F9600C72419 /* sacenc_tree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sacenc_tree.cpp; sourceTree = "<group>"; };
+		124FE3122A666F9600C72419 /* sacenc_staticgain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sacenc_staticgain.cpp; sourceTree = "<group>"; };
+		124FE3132A666F9600C72419 /* sacenc_tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sacenc_tree.h; sourceTree = "<group>"; };
+		124FE3142A666F9600C72419 /* sacenc_onsetdetect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sacenc_onsetdetect.cpp; sourceTree = "<group>"; };
+		124FE3152A666F9600C72419 /* sacenc_paramextract.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sacenc_paramextract.cpp; sourceTree = "<group>"; };
+		124FE3162A666F9600C72419 /* sacenc_nlc_enc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sacenc_nlc_enc.cpp; sourceTree = "<group>"; };
+		124FE3172A666F9600C72419 /* sacenc_bitstream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sacenc_bitstream.cpp; sourceTree = "<group>"; };
+		124FE3182A666F9600C72419 /* sacenc_dmx_tdom_enh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sacenc_dmx_tdom_enh.cpp; sourceTree = "<group>"; };
+		124FE3192A666F9600C72419 /* sacenc_staticgain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sacenc_staticgain.h; sourceTree = "<group>"; };
+		124FE31A2A666F9600C72419 /* sacenc_framewindowing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sacenc_framewindowing.h; sourceTree = "<group>"; };
+		124FE31B2A666F9600C72419 /* sacenc_lib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sacenc_lib.cpp; sourceTree = "<group>"; };
+		124FE31E2A666F9600C72419 /* sbr_encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sbr_encoder.h; sourceTree = "<group>"; };
+		124FE3202A666F9600C72419 /* fram_gen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fram_gen.h; sourceTree = "<group>"; };
+		124FE3212A666F9600C72419 /* code_env.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = code_env.cpp; sourceTree = "<group>"; };
+		124FE3222A666F9600C72419 /* sbrenc_rom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sbrenc_rom.cpp; sourceTree = "<group>"; };
+		124FE3232A666F9600C72419 /* bit_sbr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bit_sbr.cpp; sourceTree = "<group>"; };
+		124FE3242A666F9600C72419 /* ps_encode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ps_encode.h; sourceTree = "<group>"; };
+		124FE3252A666F9600C72419 /* ps_main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ps_main.cpp; sourceTree = "<group>"; };
+		124FE3262A666F9600C72419 /* invf_est.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = invf_est.h; sourceTree = "<group>"; };
+		124FE3272A666F9600C72419 /* ps_const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ps_const.h; sourceTree = "<group>"; };
+		124FE3282A666F9600C72419 /* env_bit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = env_bit.h; sourceTree = "<group>"; };
+		124FE3292A666F9600C72419 /* ps_bitenc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ps_bitenc.cpp; sourceTree = "<group>"; };
+		124FE32A2A666F9600C72419 /* mh_det.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mh_det.cpp; sourceTree = "<group>"; };
+		124FE32B2A666F9600C72419 /* nf_est.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nf_est.h; sourceTree = "<group>"; };
+		124FE32C2A666F9600C72419 /* ps_bitenc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ps_bitenc.h; sourceTree = "<group>"; };
+		124FE32D2A666F9600C72419 /* sbr_misc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sbr_misc.cpp; sourceTree = "<group>"; };
+		124FE32E2A666F9600C72419 /* ps_main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ps_main.h; sourceTree = "<group>"; };
+		124FE32F2A666F9600C72419 /* mh_det.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mh_det.h; sourceTree = "<group>"; };
+		124FE3302A666F9600C72419 /* env_est.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = env_est.cpp; sourceTree = "<group>"; };
+		124FE3312A666F9600C72419 /* code_env.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = code_env.h; sourceTree = "<group>"; };
+		124FE3322A666F9600C72419 /* cmondata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmondata.h; sourceTree = "<group>"; };
+		124FE3332A666F9600C72419 /* ton_corr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ton_corr.h; sourceTree = "<group>"; };
+		124FE3342A666F9600C72419 /* ton_corr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ton_corr.cpp; sourceTree = "<group>"; };
+		124FE3352A666F9600C72419 /* sbr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sbr.h; sourceTree = "<group>"; };
+		124FE3362A666F9600C72419 /* sbrenc_ram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sbrenc_ram.h; sourceTree = "<group>"; };
+		124FE3372A666F9600C72419 /* ps_encode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ps_encode.cpp; sourceTree = "<group>"; };
+		124FE3382A666F9600C72419 /* invf_est.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = invf_est.cpp; sourceTree = "<group>"; };
+		124FE3392A666F9600C72419 /* tran_det.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tran_det.h; sourceTree = "<group>"; };
+		124FE33A2A666F9600C72419 /* bit_sbr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bit_sbr.h; sourceTree = "<group>"; };
+		124FE33B2A666F9600C72419 /* fram_gen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fram_gen.cpp; sourceTree = "<group>"; };
+		124FE33C2A666F9600C72419 /* resampler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resampler.h; sourceTree = "<group>"; };
+		124FE33D2A666F9600C72419 /* sbrenc_freq_sca.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sbrenc_freq_sca.h; sourceTree = "<group>"; };
+		124FE33E2A666F9600C72419 /* env_est.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = env_est.h; sourceTree = "<group>"; };
+		124FE33F2A666F9600C72419 /* sbr_encoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sbr_encoder.cpp; sourceTree = "<group>"; };
+		124FE3402A666F9600C72419 /* sbr_def.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sbr_def.h; sourceTree = "<group>"; };
+		124FE3412A666F9600C72419 /* sbrenc_ram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sbrenc_ram.cpp; sourceTree = "<group>"; };
+		124FE3422A666F9600C72419 /* sbrenc_freq_sca.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sbrenc_freq_sca.cpp; sourceTree = "<group>"; };
+		124FE3432A666F9600C72419 /* nf_est.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nf_est.cpp; sourceTree = "<group>"; };
+		124FE3442A666F9600C72419 /* env_bit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = env_bit.cpp; sourceTree = "<group>"; };
+		124FE3452A666F9600C72419 /* tran_det.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tran_det.cpp; sourceTree = "<group>"; };
+		124FE3462A666F9600C72419 /* sbrenc_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sbrenc_rom.h; sourceTree = "<group>"; };
+		124FE3472A666F9600C72419 /* resampler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = resampler.cpp; sourceTree = "<group>"; };
+		124FE3482A666F9600C72419 /* sbr_misc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sbr_misc.h; sourceTree = "<group>"; };
+		124FE5592A6670B200C72419 /* wavreader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wavreader.h; path = ../../wavreader.h; sourceTree = "<group>"; };
+		124FE55A2A6670B300C72419 /* wavreader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = wavreader.c; path = ../../wavreader.c; sourceTree = "<group>"; };
+		124FE55C2A66754000C72419 /* JP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JP.h; path = ../JP/CPP/JP.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		124FDBEF2A666BAA00C72419 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		124FE17A2A666F5600C72419 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		124FDBDB2A666B7200C72419 = {
+			isa = PBXGroup;
+			children = (
+				124FE55C2A66754000C72419 /* JP.h */,
+				124FE1862A666F8300C72419 /* fdk-aac */,
+				124FDBF32A666BAA00C72419 /* Decoder */,
+				124FE17E2A666F5600C72419 /* aac-enc */,
+				124FDBE52A666B7300C72419 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		124FDBE52A666B7300C72419 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				124FDBF22A666BAA00C72419 /* Decoder */,
+				124FE17D2A666F5600C72419 /* aac-enc */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		124FDBF32A666BAA00C72419 /* Decoder */ = {
+			isa = PBXGroup;
+			children = (
+				124FDBF42A666BAA00C72419 /* Decoder.cpp */,
+			);
+			path = Decoder;
+			sourceTree = "<group>";
+		};
+		124FE17E2A666F5600C72419 /* aac-enc */ = {
+			isa = PBXGroup;
+			children = (
+				124FE1842A666F6400C72419 /* aac-enc.c */,
+			);
+			path = "aac-enc";
+			sourceTree = "<group>";
+		};
+		124FE1862A666F8300C72419 /* fdk-aac */ = {
+			isa = PBXGroup;
+			children = (
+				124FE55A2A6670B300C72419 /* wavreader.c */,
+				124FE5592A6670B200C72419 /* wavreader.h */,
+				124FE1962A666F9500C72419 /* libAACdec */,
+				124FE22C2A666F9500C72419 /* libAACenc */,
+				124FE2782A666F9500C72419 /* libArithCoding */,
+				124FE27D2A666F9500C72419 /* libDRCdec */,
+				124FE1D92A666F9500C72419 /* libFDK */,
+				124FE2EE2A666F9600C72419 /* libMpegTPDec */,
+				124FE1872A666F9400C72419 /* libMpegTPEnc */,
+				124FE2E42A666F9500C72419 /* libPCMutils */,
+				124FE2942A666F9500C72419 /* libSACdec */,
+				124FE2FE2A666F9600C72419 /* libSACenc */,
+				124FE2BB2A666F9500C72419 /* libSBRdec */,
+				124FE31C2A666F9600C72419 /* libSBRenc */,
+				124FE2B22A666F9500C72419 /* libSYS */,
+			);
+			path = "fdk-aac";
+			sourceTree = "<group>";
+		};
+		124FE1872A666F9400C72419 /* libMpegTPEnc */ = {
+			isa = PBXGroup;
+			children = (
+				124FE1882A666F9400C72419 /* include */,
+				124FE18B2A666F9400C72419 /* src */,
+			);
+			name = libMpegTPEnc;
+			path = ../../libMpegTPEnc;
+			sourceTree = "<group>";
+		};
+		124FE1882A666F9400C72419 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				124FE1892A666F9400C72419 /* tp_data.h */,
+				124FE18A2A666F9400C72419 /* tpenc_lib.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		124FE18B2A666F9400C72419 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				124FE18C2A666F9400C72419 /* tpenc_lib.cpp */,
+				124FE18D2A666F9400C72419 /* tpenc_latm.cpp */,
+				124FE18E2A666F9400C72419 /* tpenc_adts.cpp */,
+				124FE18F2A666F9400C72419 /* tp_version.h */,
+				124FE1902A666F9400C72419 /* tpenc_adts.h */,
+				124FE1912A666F9400C72419 /* tpenc_asc.cpp */,
+				124FE1922A666F9400C72419 /* tpenc_adif.h */,
+				124FE1932A666F9400C72419 /* tpenc_asc.h */,
+				124FE1942A666F9400C72419 /* tpenc_latm.h */,
+				124FE1952A666F9400C72419 /* tpenc_adif.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		124FE1962A666F9500C72419 /* libAACdec */ = {
+			isa = PBXGroup;
+			children = (
+				124FE1972A666F9500C72419 /* include */,
+				124FE1992A666F9500C72419 /* src */,
+			);
+			name = libAACdec;
+			path = ../../libAACdec;
+			sourceTree = "<group>";
+		};
+		124FE1972A666F9500C72419 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				124FE1982A666F9500C72419 /* aacdecoder_lib.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		124FE1992A666F9500C72419 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				124FE19A2A666F9500C72419 /* usacdec_lpd.cpp */,
+				124FE19B2A666F9500C72419 /* FDK_delay.cpp */,
+				124FE19C2A666F9500C72419 /* conceal.cpp */,
+				124FE19D2A666F9500C72419 /* channel.h */,
+				124FE19E2A666F9500C72419 /* aacdec_pns.h */,
+				124FE19F2A666F9500C72419 /* rvlc_info.h */,
+				124FE1A02A666F9500C72419 /* FDK_delay.h */,
+				124FE1A12A666F9500C72419 /* aacdec_tns.h */,
+				124FE1A22A666F9500C72419 /* aacdecoder.cpp */,
+				124FE1A32A666F9500C72419 /* overlapadd.h */,
+				124FE1A42A666F9500C72419 /* usacdec_lpc.cpp */,
+				124FE1A52A666F9500C72419 /* stereo.h */,
+				124FE1A62A666F9500C72419 /* rvlcconceal.cpp */,
+				124FE1A72A666F9500C72419 /* aacdec_drc_types.h */,
+				124FE1A82A666F9500C72419 /* rvlc.h */,
+				124FE1A92A666F9500C72419 /* channel.cpp */,
+				124FE1AA2A666F9500C72419 /* aacdec_hcrs.cpp */,
+				124FE1AB2A666F9500C72419 /* block.cpp */,
+				124FE1AC2A666F9500C72419 /* aacdec_hcr_bit.h */,
+				124FE1AD2A666F9500C72419 /* rvlcbit.h */,
+				124FE1AE2A666F9500C72419 /* aacdec_hcr_types.h */,
+				124FE1AF2A666F9500C72419 /* usacdec_ace_d4t64.cpp */,
+				124FE1B02A666F9500C72419 /* channelinfo.cpp */,
+				124FE1B12A666F9500C72419 /* usacdec_fac.cpp */,
+				124FE1B22A666F9500C72419 /* aac_ram.cpp */,
+				124FE1B32A666F9500C72419 /* stereo.cpp */,
+				124FE1B42A666F9500C72419 /* usacdec_acelp.h */,
+				124FE1B52A666F9500C72419 /* aacdecoder_lib.cpp */,
+				124FE1B62A666F9500C72419 /* rvlc.cpp */,
+				124FE1B72A666F9500C72419 /* ldfiltbank.h */,
+				124FE1B82A666F9500C72419 /* usacdec_lpc.h */,
+				124FE1B92A666F9500C72419 /* aacdec_hcr.h */,
+				124FE1BA2A666F9500C72419 /* conceal.h */,
+				124FE1BB2A666F9500C72419 /* aacdec_hcr.cpp */,
+				124FE1BC2A666F9500C72419 /* pulsedata.h */,
+				124FE1BD2A666F9500C72419 /* rvlcbit.cpp */,
+				124FE1BE2A666F9500C72419 /* usacdec_ace_ltp.cpp */,
+				124FE1BF2A666F9500C72419 /* usacdec_rom.h */,
+				124FE1C02A666F9500C72419 /* aac_rom.cpp */,
+				124FE1C12A666F9500C72419 /* aacdec_drc.h */,
+				124FE1C22A666F9500C72419 /* usacdec_const.h */,
+				124FE1C32A666F9500C72419 /* aac_rom.h */,
+				124FE1C42A666F9500C72419 /* block.h */,
+				124FE1C52A666F9500C72419 /* aacdec_hcrs.h */,
+				124FE1C62A666F9500C72419 /* usacdec_ace_d4t64.h */,
+				124FE1C72A666F9500C72419 /* aacdec_tns.cpp */,
+				124FE1C82A666F9500C72419 /* usacdec_acelp.cpp */,
+				124FE1C92A666F9500C72419 /* arm */,
+				124FE1CB2A666F9500C72419 /* usacdec_ace_ltp.h */,
+				124FE1CC2A666F9500C72419 /* rvlcconceal.h */,
+				124FE1CD2A666F9500C72419 /* aacdec_drc.cpp */,
+				124FE1CE2A666F9500C72419 /* pulsedata.cpp */,
+				124FE1CF2A666F9500C72419 /* usacdec_lpd.h */,
+				124FE1D02A666F9500C72419 /* aac_ram.h */,
+				124FE1D12A666F9500C72419 /* usacdec_rom.cpp */,
+				124FE1D22A666F9500C72419 /* channelinfo.h */,
+				124FE1D32A666F9500C72419 /* ldfiltbank.cpp */,
+				124FE1D42A666F9500C72419 /* usacdec_fac.h */,
+				124FE1D52A666F9500C72419 /* aacdec_hcr_bit.cpp */,
+				124FE1D62A666F9500C72419 /* aacdecoder.h */,
+				124FE1D72A666F9500C72419 /* conceal_types.h */,
+				124FE1D82A666F9500C72419 /* aacdec_pns.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		124FE1C92A666F9500C72419 /* arm */ = {
+			isa = PBXGroup;
+			children = (
+				124FE1CA2A666F9500C72419 /* block_arm.cpp */,
+			);
+			path = arm;
+			sourceTree = "<group>";
+		};
+		124FE1D92A666F9500C72419 /* libFDK */ = {
+			isa = PBXGroup;
+			children = (
+				124FE1DA2A666F9500C72419 /* include */,
+				124FE2102A666F9500C72419 /* src */,
+			);
+			name = libFDK;
+			path = ../../libFDK;
+			sourceTree = "<group>";
+		};
+		124FE1DA2A666F9500C72419 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				124FE1DB2A666F9500C72419 /* fft.h */,
+				124FE1DC2A666F9500C72419 /* FDK_decorrelate.h */,
+				124FE1DD2A666F9500C72419 /* cplx_mul.h */,
+				124FE1DE2A666F9500C72419 /* scramble.h */,
+				124FE1DF2A666F9500C72419 /* scale.h */,
+				124FE1E02A666F9500C72419 /* fixmul.h */,
+				124FE1E12A666F9500C72419 /* FDK_hybrid.h */,
+				124FE1E22A666F9500C72419 /* FDK_bitstream.h */,
+				124FE1E32A666F9500C72419 /* dct.h */,
+				124FE1E42A666F9500C72419 /* FDK_tools_rom.h */,
+				124FE1E52A666F9500C72419 /* FDK_trigFcts.h */,
+				124FE1E62A666F9500C72419 /* fft_rad2.h */,
+				124FE1E72A666F9500C72419 /* ppc */,
+				124FE1EA2A666F9500C72419 /* qmf.h */,
+				124FE1EB2A666F9500C72419 /* clz.h */,
+				124FE1EC2A666F9500C72419 /* FDK_archdef.h */,
+				124FE1ED2A666F9500C72419 /* abs.h */,
+				124FE1EE2A666F9500C72419 /* autocorr2nd.h */,
+				124FE1EF2A666F9500C72419 /* fixpoint_math.h */,
+				124FE1F02A666F9500C72419 /* FDK_core.h */,
+				124FE1F12A666F9500C72419 /* mips */,
+				124FE1F82A666F9500C72419 /* common_fix.h */,
+				124FE1F92A666F9500C72419 /* FDK_crc.h */,
+				124FE1FA2A666F9500C72419 /* FDK_lpc.h */,
+				124FE1FB2A666F9500C72419 /* x86 */,
+				124FE2002A666F9500C72419 /* fixminmax.h */,
+				124FE2012A666F9500C72419 /* huff_nodes.h */,
+				124FE2022A666F9500C72419 /* FDK_matrixCalloc.h */,
+				124FE2032A666F9500C72419 /* qmf_pcm.h */,
+				124FE2042A666F9500C72419 /* nlc_dec.h */,
+				124FE2052A666F9500C72419 /* fixmadd.h */,
+				124FE2062A666F9500C72419 /* arm */,
+				124FE20D2A666F9500C72419 /* mdct.h */,
+				124FE20E2A666F9500C72419 /* FDK_bitbuffer.h */,
+				124FE20F2A666F9500C72419 /* FDK_qmf_domain.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		124FE1E72A666F9500C72419 /* ppc */ = {
+			isa = PBXGroup;
+			children = (
+				124FE1E82A666F9500C72419 /* clz_ppc.h */,
+				124FE1E92A666F9500C72419 /* fixmul_ppc.h */,
+			);
+			path = ppc;
+			sourceTree = "<group>";
+		};
+		124FE1F12A666F9500C72419 /* mips */ = {
+			isa = PBXGroup;
+			children = (
+				124FE1F22A666F9500C72419 /* abs_mips.h */,
+				124FE1F32A666F9500C72419 /* scale_mips.h */,
+				124FE1F42A666F9500C72419 /* cplx_mul_mips.h */,
+				124FE1F52A666F9500C72419 /* scramble_mips.h */,
+				124FE1F62A666F9500C72419 /* clz_mips.h */,
+				124FE1F72A666F9500C72419 /* fixmul_mips.h */,
+			);
+			path = mips;
+			sourceTree = "<group>";
+		};
+		124FE1FB2A666F9500C72419 /* x86 */ = {
+			isa = PBXGroup;
+			children = (
+				124FE1FC2A666F9500C72419 /* fixmul_x86.h */,
+				124FE1FD2A666F9500C72419 /* fixpoint_math_x86.h */,
+				124FE1FE2A666F9500C72419 /* clz_x86.h */,
+				124FE1FF2A666F9500C72419 /* abs_x86.h */,
+			);
+			path = x86;
+			sourceTree = "<group>";
+		};
+		124FE2062A666F9500C72419 /* arm */ = {
+			isa = PBXGroup;
+			children = (
+				124FE2072A666F9500C72419 /* scramble_arm.h */,
+				124FE2082A666F9500C72419 /* fixmul_arm.h */,
+				124FE2092A666F9500C72419 /* clz_arm.h */,
+				124FE20A2A666F9500C72419 /* cplx_mul_arm.h */,
+				124FE20B2A666F9500C72419 /* fixmadd_arm.h */,
+				124FE20C2A666F9500C72419 /* scale_arm.h */,
+			);
+			path = arm;
+			sourceTree = "<group>";
+		};
+		124FE2102A666F9500C72419 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				124FE2112A666F9500C72419 /* FDK_core.cpp */,
+				124FE2122A666F9500C72419 /* FDK_trigFcts.cpp */,
+				124FE2132A666F9500C72419 /* mdct.cpp */,
+				124FE2142A666F9500C72419 /* FDK_matrixCalloc.cpp */,
+				124FE2152A666F9500C72419 /* fft.cpp */,
+				124FE2162A666F9500C72419 /* FDK_bitbuffer.cpp */,
+				124FE2172A666F9500C72419 /* nlc_dec.cpp */,
+				124FE2182A666F9500C72419 /* autocorr2nd.cpp */,
+				124FE2192A666F9500C72419 /* huff_nodes.cpp */,
+				124FE21A2A666F9500C72419 /* FDK_hybrid.cpp */,
+				124FE21B2A666F9500C72419 /* mips */,
+				124FE21F2A666F9500C72419 /* FDK_lpc.cpp */,
+				124FE2202A666F9500C72419 /* fft_rad2.cpp */,
+				124FE2212A666F9500C72419 /* FDK_qmf_domain.cpp */,
+				124FE2222A666F9500C72419 /* arm */,
+				124FE2252A666F9500C72419 /* fixpoint_math.cpp */,
+				124FE2262A666F9500C72419 /* scale.cpp */,
+				124FE2272A666F9500C72419 /* FDK_decorrelate.cpp */,
+				124FE2282A666F9500C72419 /* dct.cpp */,
+				124FE2292A666F9500C72419 /* FDK_crc.cpp */,
+				124FE22A2A666F9500C72419 /* FDK_tools_rom.cpp */,
+				124FE22B2A666F9500C72419 /* qmf.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		124FE21B2A666F9500C72419 /* mips */ = {
+			isa = PBXGroup;
+			children = (
+				124FE21C2A666F9500C72419 /* fft_rad2_mips.cpp */,
+				124FE21D2A666F9500C72419 /* mips_fft_twiddles.cpp */,
+				124FE21E2A666F9500C72419 /* scale_mips.cpp */,
+			);
+			path = mips;
+			sourceTree = "<group>";
+		};
+		124FE2222A666F9500C72419 /* arm */ = {
+			isa = PBXGroup;
+			children = (
+				124FE2232A666F9500C72419 /* fft_rad2_arm.cpp */,
+				124FE2242A666F9500C72419 /* scale_arm.cpp */,
+			);
+			path = arm;
+			sourceTree = "<group>";
+		};
+		124FE22C2A666F9500C72419 /* libAACenc */ = {
+			isa = PBXGroup;
+			children = (
+				124FE22D2A666F9500C72419 /* include */,
+				124FE22F2A666F9500C72419 /* src */,
+			);
+			name = libAACenc;
+			path = ../../libAACenc;
+			sourceTree = "<group>";
+		};
+		124FE22D2A666F9500C72419 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				124FE22E2A666F9500C72419 /* aacenc_lib.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		124FE22F2A666F9500C72419 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				124FE2302A666F9500C72419 /* metadata_compressor.cpp */,
+				124FE2312A666F9500C72419 /* psy_main.h */,
+				124FE2322A666F9500C72419 /* pnsparam.cpp */,
+				124FE2332A666F9500C72419 /* quantize.h */,
+				124FE2342A666F9500C72419 /* grp_data.cpp */,
+				124FE2352A666F9500C72419 /* tonality.cpp */,
+				124FE2362A666F9500C72419 /* metadata_compressor.h */,
+				124FE2372A666F9500C72419 /* grp_data.h */,
+				124FE2382A666F9500C72419 /* aacenc.cpp */,
+				124FE2392A666F9500C72419 /* pnsparam.h */,
+				124FE23A2A666F9500C72419 /* block_switch.h */,
+				124FE23B2A666F9500C72419 /* qc_main.h */,
+				124FE23C2A666F9500C72419 /* bitenc.cpp */,
+				124FE23D2A666F9500C72419 /* ms_stereo.h */,
+				124FE23E2A666F9500C72419 /* aacenc.h */,
+				124FE23F2A666F9500C72419 /* noisedet.h */,
+				124FE2402A666F9500C72419 /* pre_echo_control.h */,
+				124FE2412A666F9500C72419 /* dyn_bits.h */,
+				124FE2422A666F9500C72419 /* tonality.h */,
+				124FE2432A666F9500C72419 /* psy_data.h */,
+				124FE2442A666F9500C72419 /* noisedet.cpp */,
+				124FE2452A666F9500C72419 /* aacEnc_ram.cpp */,
+				124FE2462A666F9500C72419 /* band_nrg.cpp */,
+				124FE2472A666F9500C72419 /* dyn_bits.cpp */,
+				124FE2482A666F9500C72419 /* channel_map.h */,
+				124FE2492A666F9500C72419 /* tns_func.h */,
+				124FE24A2A666F9500C72419 /* intensity.h */,
+				124FE24B2A666F9500C72419 /* psy_configuration.h */,
+				124FE24C2A666F9500C72419 /* qc_data.h */,
+				124FE24D2A666F9500C72419 /* spreading.h */,
+				124FE24E2A666F9500C72419 /* adj_thr.h */,
+				124FE24F2A666F9500C72419 /* line_pe.h */,
+				124FE2502A666F9500C72419 /* aacEnc_rom.h */,
+				124FE2512A666F9500C72419 /* interface.h */,
+				124FE2522A666F9500C72419 /* mps_main.h */,
+				124FE2532A666F9500C72419 /* bit_cnt.h */,
+				124FE2542A666F9500C72419 /* aacenc_lib.cpp */,
+				124FE2552A666F9500C72419 /* bandwidth.cpp */,
+				124FE2562A666F9500C72419 /* aacenc_tns.cpp */,
+				124FE2572A666F9500C72419 /* transform.cpp */,
+				124FE2582A666F9500C72419 /* aacEnc_rom.cpp */,
+				124FE2592A666F9500C72419 /* bitenc.h */,
+				124FE25A2A666F9500C72419 /* chaosmeasure.h */,
+				124FE25B2A666F9500C72419 /* band_nrg.h */,
+				124FE25C2A666F9500C72419 /* pre_echo_control.cpp */,
+				124FE25D2A666F9500C72419 /* chaosmeasure.cpp */,
+				124FE25E2A666F9500C72419 /* block_switch.cpp */,
+				124FE25F2A666F9500C72419 /* line_pe.cpp */,
+				124FE2602A666F9500C72419 /* transform.h */,
+				124FE2612A666F9500C72419 /* aacenc_pns.cpp */,
+				124FE2622A666F9500C72419 /* qc_main.cpp */,
+				124FE2632A666F9500C72419 /* bit_cnt.cpp */,
+				124FE2642A666F9500C72419 /* pns_func.h */,
+				124FE2652A666F9500C72419 /* psy_const.h */,
+				124FE2662A666F9500C72419 /* quantize.cpp */,
+				124FE2672A666F9500C72419 /* metadata_main.h */,
+				124FE2682A666F9500C72419 /* mps_main.cpp */,
+				124FE2692A666F9500C72419 /* psy_configuration.cpp */,
+				124FE26A2A666F9500C72419 /* intensity.cpp */,
+				124FE26B2A666F9500C72419 /* aacenc_tns.h */,
+				124FE26C2A666F9500C72419 /* aacEnc_ram.h */,
+				124FE26D2A666F9500C72419 /* ms_stereo.cpp */,
+				124FE26E2A666F9500C72419 /* bandwidth.h */,
+				124FE26F2A666F9500C72419 /* sf_estim.cpp */,
+				124FE2702A666F9500C72419 /* adj_thr_data.h */,
+				124FE2712A666F9500C72419 /* aacenc_pns.h */,
+				124FE2722A666F9500C72419 /* metadata_main.cpp */,
+				124FE2732A666F9500C72419 /* psy_main.cpp */,
+				124FE2742A666F9500C72419 /* adj_thr.cpp */,
+				124FE2752A666F9500C72419 /* channel_map.cpp */,
+				124FE2762A666F9500C72419 /* sf_estim.h */,
+				124FE2772A666F9500C72419 /* spreading.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		124FE2782A666F9500C72419 /* libArithCoding */ = {
+			isa = PBXGroup;
+			children = (
+				124FE2792A666F9500C72419 /* include */,
+				124FE27B2A666F9500C72419 /* src */,
+			);
+			name = libArithCoding;
+			path = ../../libArithCoding;
+			sourceTree = "<group>";
+		};
+		124FE2792A666F9500C72419 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				124FE27A2A666F9500C72419 /* ac_arith_coder.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		124FE27B2A666F9500C72419 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				124FE27C2A666F9500C72419 /* ac_arith_coder.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		124FE27D2A666F9500C72419 /* libDRCdec */ = {
+			isa = PBXGroup;
+			children = (
+				124FE27E2A666F9500C72419 /* include */,
+				124FE2802A666F9500C72419 /* src */,
+			);
+			name = libDRCdec;
+			path = ../../libDRCdec;
+			sourceTree = "<group>";
+		};
+		124FE27E2A666F9500C72419 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				124FE27F2A666F9500C72419 /* FDK_drcDecLib.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		124FE2802A666F9500C72419 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				124FE2812A666F9500C72419 /* drcDec_tools.h */,
+				124FE2822A666F9500C72419 /* drcGainDec_init.h */,
+				124FE2832A666F9500C72419 /* drcDec_rom.cpp */,
+				124FE2842A666F9500C72419 /* drcDecoder.h */,
+				124FE2852A666F9500C72419 /* drcGainDec_preprocess.h */,
+				124FE2862A666F9500C72419 /* drcDec_reader.cpp */,
+				124FE2872A666F9500C72419 /* drcGainDec_process.cpp */,
+				124FE2882A666F9500C72419 /* drcDec_selectionProcess.h */,
+				124FE2892A666F9500C72419 /* drcDec_selectionProcess.cpp */,
+				124FE28A2A666F9500C72419 /* drcDec_gainDecoder.cpp */,
+				124FE28B2A666F9500C72419 /* drcDec_rom.h */,
+				124FE28C2A666F9500C72419 /* FDK_drcDecLib.cpp */,
+				124FE28D2A666F9500C72419 /* drcDec_types.h */,
+				124FE28E2A666F9500C72419 /* drcDec_reader.h */,
+				124FE28F2A666F9500C72419 /* drcGainDec_preprocess.cpp */,
+				124FE2902A666F9500C72419 /* drcGainDec_init.cpp */,
+				124FE2912A666F9500C72419 /* drcDec_tools.cpp */,
+				124FE2922A666F9500C72419 /* drcDec_gainDecoder.h */,
+				124FE2932A666F9500C72419 /* drcGainDec_process.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		124FE2942A666F9500C72419 /* libSACdec */ = {
+			isa = PBXGroup;
+			children = (
+				124FE2952A666F9500C72419 /* include */,
+				124FE2982A666F9500C72419 /* src */,
+			);
+			name = libSACdec;
+			path = ../../libSACdec;
+			sourceTree = "<group>";
+		};
+		124FE2952A666F9500C72419 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				124FE2962A666F9500C72419 /* sac_dec_errorcodes.h */,
+				124FE2972A666F9500C72419 /* sac_dec_lib.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		124FE2982A666F9500C72419 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				124FE2992A666F9500C72419 /* sac_dec_conceal.h */,
+				124FE29A2A666F9500C72419 /* sac_process.cpp */,
+				124FE29B2A666F9500C72419 /* sac_calcM1andM2.cpp */,
+				124FE29C2A666F9500C72419 /* sac_rom.h */,
+				124FE29D2A666F9500C72419 /* sac_qmf.h */,
+				124FE29E2A666F9500C72419 /* sac_stp.h */,
+				124FE29F2A666F9500C72419 /* sac_calcM1andM2.h */,
+				124FE2A02A666F9500C72419 /* sac_dec_interface.h */,
+				124FE2A12A666F9500C72419 /* sac_dec_lib.cpp */,
+				124FE2A22A666F9500C72419 /* sac_tsd.h */,
+				124FE2A32A666F9500C72419 /* sac_dec_ssc_struct.h */,
+				124FE2A42A666F9500C72419 /* sac_smoothing.cpp */,
+				124FE2A52A666F9500C72419 /* sac_dec.h */,
+				124FE2A62A666F9500C72419 /* sac_smoothing.h */,
+				124FE2A72A666F9500C72419 /* sac_stp.cpp */,
+				124FE2A82A666F9500C72419 /* sac_process.h */,
+				124FE2A92A666F9500C72419 /* sac_qmf.cpp */,
+				124FE2AA2A666F9500C72419 /* sac_tsd.cpp */,
+				124FE2AB2A666F9500C72419 /* sac_bitdec.h */,
+				124FE2AC2A666F9500C72419 /* sac_reshapeBBEnv.cpp */,
+				124FE2AD2A666F9500C72419 /* sac_reshapeBBEnv.h */,
+				124FE2AE2A666F9500C72419 /* sac_dec_conceal.cpp */,
+				124FE2AF2A666F9500C72419 /* sac_dec.cpp */,
+				124FE2B02A666F9500C72419 /* sac_rom.cpp */,
+				124FE2B12A666F9500C72419 /* sac_bitdec.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		124FE2B22A666F9500C72419 /* libSYS */ = {
+			isa = PBXGroup;
+			children = (
+				124FE2B32A666F9500C72419 /* include */,
+				124FE2B82A666F9500C72419 /* src */,
+			);
+			name = libSYS;
+			path = ../../libSYS;
+			sourceTree = "<group>";
+		};
+		124FE2B32A666F9500C72419 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				124FE2B42A666F9500C72419 /* genericStds.h */,
+				124FE2B52A666F9500C72419 /* syslib_channelMapDescr.h */,
+				124FE2B62A666F9500C72419 /* FDK_audio.h */,
+				124FE2B72A666F9500C72419 /* machine_type.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		124FE2B82A666F9500C72419 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				124FE2B92A666F9500C72419 /* syslib_channelMapDescr.cpp */,
+				124FE2BA2A666F9500C72419 /* genericStds.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		124FE2BB2A666F9500C72419 /* libSBRdec */ = {
+			isa = PBXGroup;
+			children = (
+				124FE2BC2A666F9500C72419 /* include */,
+				124FE2BE2A666F9500C72419 /* src */,
+			);
+			name = libSBRdec;
+			path = ../../libSBRdec;
+			sourceTree = "<group>";
+		};
+		124FE2BC2A666F9500C72419 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				124FE2BD2A666F9500C72419 /* sbrdecoder.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		124FE2BE2A666F9500C72419 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				124FE2BF2A666F9500C72419 /* lpp_tran.cpp */,
+				124FE2C02A666F9500C72419 /* sbr_dec.h */,
+				124FE2C12A666F9500C72419 /* sbr_ram.h */,
+				124FE2C22A666F9500C72419 /* env_calc.h */,
+				124FE2C32A666F9500C72419 /* HFgen_preFlat.h */,
+				124FE2C42A666F9500C72419 /* hbe.cpp */,
+				124FE2C52A666F9500C72419 /* psdec.cpp */,
+				124FE2C62A666F9500C72419 /* env_extr.cpp */,
+				124FE2C72A666F9500C72419 /* sbrdec_drc.h */,
+				124FE2C82A666F9500C72419 /* sbrdec_freq_sca.h */,
+				124FE2C92A666F9500C72419 /* huff_dec.h */,
+				124FE2CA2A666F9500C72419 /* sbr_rom.h */,
+				124FE2CB2A666F9500C72419 /* sbrdecoder.cpp */,
+				124FE2CC2A666F9500C72419 /* env_dec.h */,
+				124FE2CD2A666F9500C72419 /* env_calc.cpp */,
+				124FE2CE2A666F9500C72419 /* sbr_ram.cpp */,
+				124FE2CF2A666F9500C72419 /* sbrdec_freq_sca.cpp */,
+				124FE2D02A666F9500C72419 /* pvc_dec.cpp */,
+				124FE2D12A666F9500C72419 /* huff_dec.cpp */,
+				124FE2D22A666F9500C72419 /* pvc_dec.h */,
+				124FE2D32A666F9500C72419 /* psdec_drm.h */,
+				124FE2D42A666F9500C72419 /* hbe.h */,
+				124FE2D52A666F9500C72419 /* sbrdec_drc.cpp */,
+				124FE2D62A666F9500C72419 /* lpp_tran.h */,
+				124FE2D72A666F9500C72419 /* sbr_deb.cpp */,
+				124FE2D82A666F9500C72419 /* psbitdec.cpp */,
+				124FE2D92A666F9500C72419 /* sbr_rom.cpp */,
+				124FE2DA2A666F9500C72419 /* sbr_dec.cpp */,
+				124FE2DB2A666F9500C72419 /* psdecrom_drm.cpp */,
+				124FE2DC2A666F9500C72419 /* HFgen_preFlat.cpp */,
+				124FE2DD2A666F9500C72419 /* transcendent.h */,
+				124FE2DE2A666F9500C72419 /* sbr_deb.h */,
+				124FE2DF2A666F9500C72419 /* psdec_drm.cpp */,
+				124FE2E02A666F9500C72419 /* env_dec.cpp */,
+				124FE2E12A666F9500C72419 /* env_extr.h */,
+				124FE2E22A666F9500C72419 /* psbitdec.h */,
+				124FE2E32A666F9500C72419 /* psdec.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		124FE2E42A666F9500C72419 /* libPCMutils */ = {
+			isa = PBXGroup;
+			children = (
+				124FE2E52A666F9500C72419 /* include */,
+				124FE2E92A666F9500C72419 /* src */,
+			);
+			name = libPCMutils;
+			path = ../../libPCMutils;
+			sourceTree = "<group>";
+		};
+		124FE2E52A666F9500C72419 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				124FE2E62A666F9500C72419 /* pcmdmx_lib.h */,
+				124FE2E72A666F9500C72419 /* pcm_utils.h */,
+				124FE2E82A666F9500C72419 /* limiter.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		124FE2E92A666F9500C72419 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				124FE2EA2A666F9500C72419 /* version.h */,
+				124FE2EB2A666F9500C72419 /* limiter.cpp */,
+				124FE2EC2A666F9500C72419 /* pcmdmx_lib.cpp */,
+				124FE2ED2A666F9500C72419 /* pcm_utils.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		124FE2EE2A666F9600C72419 /* libMpegTPDec */ = {
+			isa = PBXGroup;
+			children = (
+				124FE2EF2A666F9600C72419 /* include */,
+				124FE2F22A666F9600C72419 /* src */,
+			);
+			name = libMpegTPDec;
+			path = ../../libMpegTPDec;
+			sourceTree = "<group>";
+		};
+		124FE2EF2A666F9600C72419 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				124FE2F02A666F9600C72419 /* tp_data.h */,
+				124FE2F12A666F9600C72419 /* tpdec_lib.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		124FE2F22A666F9600C72419 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				124FE2F32A666F9600C72419 /* tpdec_asc.cpp */,
+				124FE2F42A666F9600C72419 /* tpdec_adif.h */,
+				124FE2F52A666F9600C72419 /* tp_version.h */,
+				124FE2F62A666F9600C72419 /* tpdec_adif.cpp */,
+				124FE2F72A666F9600C72419 /* tpdec_lib.cpp */,
+				124FE2F82A666F9600C72419 /* tpdec_adts.h */,
+				124FE2F92A666F9600C72419 /* tpdec_drm.h */,
+				124FE2FA2A666F9600C72419 /* tpdec_latm.cpp */,
+				124FE2FB2A666F9600C72419 /* tpdec_drm.cpp */,
+				124FE2FC2A666F9600C72419 /* tpdec_adts.cpp */,
+				124FE2FD2A666F9600C72419 /* tpdec_latm.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		124FE2FE2A666F9600C72419 /* libSACenc */ = {
+			isa = PBXGroup;
+			children = (
+				124FE2FF2A666F9600C72419 /* include */,
+				124FE3012A666F9600C72419 /* src */,
+			);
+			name = libSACenc;
+			path = ../../libSACenc;
+			sourceTree = "<group>";
+		};
+		124FE2FF2A666F9600C72419 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				124FE3002A666F9600C72419 /* sacenc_lib.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		124FE3012A666F9600C72419 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				124FE3022A666F9600C72419 /* sacenc_dmx_tdom_enh.h */,
+				124FE3032A666F9600C72419 /* sacenc_delay.cpp */,
+				124FE3042A666F9600C72419 /* sacenc_nlc_enc.h */,
+				124FE3052A666F9600C72419 /* sacenc_onsetdetect.h */,
+				124FE3062A666F9600C72419 /* sacenc_filter.h */,
+				124FE3072A666F9600C72419 /* sacenc_vectorfunctions.h */,
+				124FE3082A666F9600C72419 /* sacenc_vectorfunctions.cpp */,
+				124FE3092A666F9600C72419 /* sacenc_bitstream.h */,
+				124FE30A2A666F9600C72419 /* sacenc_framewindowing.cpp */,
+				124FE30B2A666F9600C72419 /* sacenc_delay.h */,
+				124FE30C2A666F9600C72419 /* sacenc_paramextract.h */,
+				124FE30D2A666F9600C72419 /* sacenc_huff_tab.h */,
+				124FE30E2A666F9600C72419 /* sacenc_const.h */,
+				124FE30F2A666F9600C72419 /* sacenc_huff_tab.cpp */,
+				124FE3102A666F9600C72419 /* sacenc_filter.cpp */,
+				124FE3112A666F9600C72419 /* sacenc_tree.cpp */,
+				124FE3122A666F9600C72419 /* sacenc_staticgain.cpp */,
+				124FE3132A666F9600C72419 /* sacenc_tree.h */,
+				124FE3142A666F9600C72419 /* sacenc_onsetdetect.cpp */,
+				124FE3152A666F9600C72419 /* sacenc_paramextract.cpp */,
+				124FE3162A666F9600C72419 /* sacenc_nlc_enc.cpp */,
+				124FE3172A666F9600C72419 /* sacenc_bitstream.cpp */,
+				124FE3182A666F9600C72419 /* sacenc_dmx_tdom_enh.cpp */,
+				124FE3192A666F9600C72419 /* sacenc_staticgain.h */,
+				124FE31A2A666F9600C72419 /* sacenc_framewindowing.h */,
+				124FE31B2A666F9600C72419 /* sacenc_lib.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		124FE31C2A666F9600C72419 /* libSBRenc */ = {
+			isa = PBXGroup;
+			children = (
+				124FE31D2A666F9600C72419 /* include */,
+				124FE31F2A666F9600C72419 /* src */,
+			);
+			name = libSBRenc;
+			path = ../../libSBRenc;
+			sourceTree = "<group>";
+		};
+		124FE31D2A666F9600C72419 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				124FE31E2A666F9600C72419 /* sbr_encoder.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		124FE31F2A666F9600C72419 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				124FE3202A666F9600C72419 /* fram_gen.h */,
+				124FE3212A666F9600C72419 /* code_env.cpp */,
+				124FE3222A666F9600C72419 /* sbrenc_rom.cpp */,
+				124FE3232A666F9600C72419 /* bit_sbr.cpp */,
+				124FE3242A666F9600C72419 /* ps_encode.h */,
+				124FE3252A666F9600C72419 /* ps_main.cpp */,
+				124FE3262A666F9600C72419 /* invf_est.h */,
+				124FE3272A666F9600C72419 /* ps_const.h */,
+				124FE3282A666F9600C72419 /* env_bit.h */,
+				124FE3292A666F9600C72419 /* ps_bitenc.cpp */,
+				124FE32A2A666F9600C72419 /* mh_det.cpp */,
+				124FE32B2A666F9600C72419 /* nf_est.h */,
+				124FE32C2A666F9600C72419 /* ps_bitenc.h */,
+				124FE32D2A666F9600C72419 /* sbr_misc.cpp */,
+				124FE32E2A666F9600C72419 /* ps_main.h */,
+				124FE32F2A666F9600C72419 /* mh_det.h */,
+				124FE3302A666F9600C72419 /* env_est.cpp */,
+				124FE3312A666F9600C72419 /* code_env.h */,
+				124FE3322A666F9600C72419 /* cmondata.h */,
+				124FE3332A666F9600C72419 /* ton_corr.h */,
+				124FE3342A666F9600C72419 /* ton_corr.cpp */,
+				124FE3352A666F9600C72419 /* sbr.h */,
+				124FE3362A666F9600C72419 /* sbrenc_ram.h */,
+				124FE3372A666F9600C72419 /* ps_encode.cpp */,
+				124FE3382A666F9600C72419 /* invf_est.cpp */,
+				124FE3392A666F9600C72419 /* tran_det.h */,
+				124FE33A2A666F9600C72419 /* bit_sbr.h */,
+				124FE33B2A666F9600C72419 /* fram_gen.cpp */,
+				124FE33C2A666F9600C72419 /* resampler.h */,
+				124FE33D2A666F9600C72419 /* sbrenc_freq_sca.h */,
+				124FE33E2A666F9600C72419 /* env_est.h */,
+				124FE33F2A666F9600C72419 /* sbr_encoder.cpp */,
+				124FE3402A666F9600C72419 /* sbr_def.h */,
+				124FE3412A666F9600C72419 /* sbrenc_ram.cpp */,
+				124FE3422A666F9600C72419 /* sbrenc_freq_sca.cpp */,
+				124FE3432A666F9600C72419 /* nf_est.cpp */,
+				124FE3442A666F9600C72419 /* env_bit.cpp */,
+				124FE3452A666F9600C72419 /* tran_det.cpp */,
+				124FE3462A666F9600C72419 /* sbrenc_rom.h */,
+				124FE3472A666F9600C72419 /* resampler.cpp */,
+				124FE3482A666F9600C72419 /* sbr_misc.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		124FDBF12A666BAA00C72419 /* Decoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 124FDBF62A666BAA00C72419 /* Build configuration list for PBXNativeTarget "Decoder" */;
+			buildPhases = (
+				124FDBEE2A666BAA00C72419 /* Sources */,
+				124FDBEF2A666BAA00C72419 /* Frameworks */,
+				124FDBF02A666BAA00C72419 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Decoder;
+			productName = Decoder;
+			productReference = 124FDBF22A666BAA00C72419 /* Decoder */;
+			productType = "com.apple.product-type.tool";
+		};
+		124FE17C2A666F5600C72419 /* aac-enc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 124FE1812A666F5600C72419 /* Build configuration list for PBXNativeTarget "aac-enc" */;
+			buildPhases = (
+				124FE1792A666F5600C72419 /* Sources */,
+				124FE17A2A666F5600C72419 /* Frameworks */,
+				124FE17B2A666F5600C72419 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "aac-enc";
+			productName = "aac-enc";
+			productReference = 124FE17D2A666F5600C72419 /* aac-enc */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		124FDBDC2A666B7200C72419 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					124FDBF12A666BAA00C72419 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					124FE17C2A666F5600C72419 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 124FDBDF2A666B7200C72419 /* Build configuration list for PBXProject "macOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 124FDBDB2A666B7200C72419;
+			productRefGroup = 124FDBE52A666B7300C72419 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				124FDBF12A666BAA00C72419 /* Decoder */,
+				124FE17C2A666F5600C72419 /* aac-enc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		124FDBEE2A666BAA00C72419 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				124FE51D2A666F9700C72419 /* sacenc_lib.cpp in Sources */,
+				124FE4362A666F9600C72419 /* qc_main.cpp in Sources */,
+				124FE46C2A666F9700C72419 /* drcDec_gainDecoder.cpp in Sources */,
+				124FE4962A666F9700C72419 /* sac_dec.cpp in Sources */,
+				124FE37C2A666F9600C72419 /* aac_ram.cpp in Sources */,
+				124FE4212A666F9600C72419 /* transform.cpp in Sources */,
+				124FE3612A666F9600C72419 /* aacdecoder.cpp in Sources */,
+				124FE3FD2A666F9600C72419 /* pnsparam.cpp in Sources */,
+				124FE34F2A666F9600C72419 /* tpenc_adts.cpp in Sources */,
+				124FE4062A666F9600C72419 /* aacenc.cpp in Sources */,
+				124FE4C32A666F9700C72419 /* sbrdec_drc.cpp in Sources */,
+				124FE4FF2A666F9700C72419 /* sacenc_framewindowing.cpp in Sources */,
+				124FE3702A666F9600C72419 /* block.cpp in Sources */,
+				124FE3912A666F9600C72419 /* aac_rom.cpp in Sources */,
+				124FE40C2A666F9600C72419 /* noisedet.cpp in Sources */,
+				124FE5082A666F9700C72419 /* sacenc_tree.cpp in Sources */,
+				124FE4CF2A666F9700C72419 /* sbr_dec.cpp in Sources */,
+				124FE54D2A666F9700C72419 /* nf_est.cpp in Sources */,
+				124FE52C2A666F9700C72419 /* ps_bitenc.cpp in Sources */,
+				124FE4512A666F9700C72419 /* psy_main.cpp in Sources */,
+				124FE5292A666F9700C72419 /* ps_main.cpp in Sources */,
+				124FE47E2A666F9700C72419 /* sac_calcM1andM2.cpp in Sources */,
+				124FE41E2A666F9600C72419 /* aacenc_tns.cpp in Sources */,
+				124FE49F2A666F9700C72419 /* syslib_channelMapDescr.cpp in Sources */,
+				124FE4722A666F9700C72419 /* drcGainDec_preprocess.cpp in Sources */,
+				124FE44E2A666F9700C72419 /* metadata_main.cpp in Sources */,
+				124FE3A32A666F9600C72419 /* usacdec_rom.cpp in Sources */,
+				124FE35B2A666F9600C72419 /* FDK_delay.cpp in Sources */,
+				124FE4E42A666F9700C72419 /* pcm_utils.cpp in Sources */,
+				124FE42D2A666F9600C72419 /* block_switch.cpp in Sources */,
+				124FE4452A666F9700C72419 /* intensity.cpp in Sources */,
+				124FE4DE2A666F9700C72419 /* limiter.cpp in Sources */,
+				124FE3642A666F9600C72419 /* usacdec_lpc.cpp in Sources */,
+				124FE3672A666F9600C72419 /* rvlcconceal.cpp in Sources */,
+				124FE3822A666F9600C72419 /* aacdecoder_lib.cpp in Sources */,
+				124FE4812A666F9700C72419 /* sac_dec_lib.cpp in Sources */,
+				124FE4F62A666F9700C72419 /* tpdec_adts.cpp in Sources */,
+				124FE4872A666F9700C72419 /* sac_stp.cpp in Sources */,
+				124FE36A2A666F9600C72419 /* channel.cpp in Sources */,
+				124FE54A2A666F9700C72419 /* sbrenc_freq_sca.cpp in Sources */,
+				124FE3E52A666F9600C72419 /* fixpoint_math.cpp in Sources */,
+				124FE4F02A666F9700C72419 /* tpdec_latm.cpp in Sources */,
+				124FE3B22A666F9600C72419 /* FDK_trigFcts.cpp in Sources */,
+				124FE49C2A666F9700C72419 /* sac_bitdec.cpp in Sources */,
+				124FE4E72A666F9700C72419 /* tpdec_asc.cpp in Sources */,
+				124FE5532A666F9700C72419 /* tran_det.cpp in Sources */,
+				124FE4B12A666F9700C72419 /* sbrdecoder.cpp in Sources */,
+				124FE45D2A666F9700C72419 /* ac_arith_coder.cpp in Sources */,
+				124FE4632A666F9700C72419 /* drcDec_reader.cpp in Sources */,
+				124FE4E12A666F9700C72419 /* pcmdmx_lib.cpp in Sources */,
+				124FE4002A666F9600C72419 /* grp_data.cpp in Sources */,
+				124FE51A2A666F9700C72419 /* sacenc_dmx_tdom_enh.cpp in Sources */,
+				124FE3792A666F9600C72419 /* usacdec_fac.cpp in Sources */,
+				124FE41B2A666F9600C72419 /* bandwidth.cpp in Sources */,
+				124FE3B52A666F9600C72419 /* mdct.cpp in Sources */,
+				124FE4D82A666F9700C72419 /* psdec_drm.cpp in Sources */,
+				124FE3CA2A666F9600C72419 /* FDK_hybrid.cpp in Sources */,
+				124FE5472A666F9700C72419 /* sbrenc_ram.cpp in Sources */,
+				124FE37F2A666F9600C72419 /* stereo.cpp in Sources */,
+				124FE4332A666F9600C72419 /* aacenc_pns.cpp in Sources */,
+				124FE5142A666F9700C72419 /* sacenc_nlc_enc.cpp in Sources */,
+				124FE3492A666F9600C72419 /* tpenc_lib.cpp in Sources */,
+				124FE3FA2A666F9600C72419 /* metadata_compressor.cpp in Sources */,
+				124FE3AF2A666F9600C72419 /* FDK_core.cpp in Sources */,
+				124FE4152A666F9600C72419 /* dyn_bits.cpp in Sources */,
+				124FE4692A666F9700C72419 /* drcDec_selectionProcess.cpp in Sources */,
+				124FE4662A666F9700C72419 /* drcGainDec_process.cpp in Sources */,
+				124FE4752A666F9700C72419 /* drcGainDec_init.cpp in Sources */,
+				124FE3D62A666F9600C72419 /* FDK_lpc.cpp in Sources */,
+				124FE3A92A666F9600C72419 /* aacdec_hcr_bit.cpp in Sources */,
+				124FE3882A666F9600C72419 /* aacdec_hcr.cpp in Sources */,
+				124FE4ED2A666F9700C72419 /* tpdec_lib.cpp in Sources */,
+				124FE3AC2A666F9600C72419 /* aacdec_pns.cpp in Sources */,
+				124FE4542A666F9700C72419 /* adj_thr.cpp in Sources */,
+				124FE4F32A666F9700C72419 /* tpdec_drm.cpp in Sources */,
+				124FE4182A666F9600C72419 /* aacenc_lib.cpp in Sources */,
+				124FE3BE2A666F9600C72419 /* FDK_bitbuffer.cpp in Sources */,
+				124FE5232A666F9700C72419 /* sbrenc_rom.cpp in Sources */,
+				124FE3EB2A666F9600C72419 /* FDK_decorrelate.cpp in Sources */,
+				124FE3B82A666F9600C72419 /* FDK_matrixCalloc.cpp in Sources */,
+				124FE5442A666F9700C72419 /* sbr_encoder.cpp in Sources */,
+				124FE4D52A666F9700C72419 /* HFgen_preFlat.cpp in Sources */,
+				124FE4C02A666F9700C72419 /* huff_dec.cpp in Sources */,
+				124FE48D2A666F9700C72419 /* sac_tsd.cpp in Sources */,
+				124FE3552A666F9600C72419 /* tpenc_adif.cpp in Sources */,
+				124FE3DC2A666F9600C72419 /* FDK_qmf_domain.cpp in Sources */,
+				124FE4AE2A666F9700C72419 /* env_extr.cpp in Sources */,
+				124FE3EE2A666F9600C72419 /* dct.cpp in Sources */,
+				124FE36D2A666F9600C72419 /* aacdec_hcrs.cpp in Sources */,
+				124FE43F2A666F9700C72419 /* mps_main.cpp in Sources */,
+				124FE5052A666F9700C72419 /* sacenc_filter.cpp in Sources */,
+				124FE4BA2A666F9700C72419 /* sbrdec_freq_sca.cpp in Sources */,
+				124FE4A82A666F9700C72419 /* hbe.cpp in Sources */,
+				124FE4572A666F9700C72419 /* channel_map.cpp in Sources */,
+				124FE4C92A666F9700C72419 /* psbitdec.cpp in Sources */,
+				124FE4A52A666F9700C72419 /* lpp_tran.cpp in Sources */,
+				124FE44B2A666F9700C72419 /* sf_estim.cpp in Sources */,
+				124FE4392A666F9700C72419 /* bit_cnt.cpp in Sources */,
+				124FE4842A666F9700C72419 /* sac_smoothing.cpp in Sources */,
+				124FE5112A666F9700C72419 /* sacenc_paramextract.cpp in Sources */,
+				124FE5172A666F9700C72419 /* sacenc_bitstream.cpp in Sources */,
+				124FE3E82A666F9600C72419 /* scale.cpp in Sources */,
+				124FE4EA2A666F9700C72419 /* tpdec_adif.cpp in Sources */,
+				124FE5562A666F9700C72419 /* resampler.cpp in Sources */,
+				124FE4D22A666F9700C72419 /* psdecrom_drm.cpp in Sources */,
+				124FE3C12A666F9600C72419 /* nlc_dec.cpp in Sources */,
+				124FE4122A666F9600C72419 /* band_nrg.cpp in Sources */,
+				124FE43C2A666F9700C72419 /* quantize.cpp in Sources */,
+				124FE39D2A666F9600C72419 /* aacdec_drc.cpp in Sources */,
+				124FE50B2A666F9700C72419 /* sacenc_staticgain.cpp in Sources */,
+				124FE3F42A666F9600C72419 /* FDK_tools_rom.cpp in Sources */,
+				124FE40F2A666F9600C72419 /* aacEnc_ram.cpp in Sources */,
+				124FE4302A666F9600C72419 /* line_pe.cpp in Sources */,
+				124FE34C2A666F9600C72419 /* tpenc_latm.cpp in Sources */,
+				124FE3C42A666F9600C72419 /* autocorr2nd.cpp in Sources */,
+				124FE3C72A666F9600C72419 /* huff_nodes.cpp in Sources */,
+				124FE3F12A666F9600C72419 /* FDK_crc.cpp in Sources */,
+				124FE5262A666F9700C72419 /* bit_sbr.cpp in Sources */,
+				124FE3D92A666F9600C72419 /* fft_rad2.cpp in Sources */,
+				124FE4CC2A666F9700C72419 /* sbr_rom.cpp in Sources */,
+				124FE4242A666F9600C72419 /* aacEnc_rom.cpp in Sources */,
+				124FE5382A666F9700C72419 /* ton_corr.cpp in Sources */,
+				124FE53B2A666F9700C72419 /* ps_encode.cpp in Sources */,
+				124FE4B42A666F9700C72419 /* env_calc.cpp in Sources */,
+				124FE3762A666F9600C72419 /* channelinfo.cpp in Sources */,
+				124FE5322A666F9700C72419 /* sbr_misc.cpp in Sources */,
+				124FE4422A666F9700C72419 /* psy_configuration.cpp in Sources */,
+				124FE5502A666F9700C72419 /* env_bit.cpp in Sources */,
+				124FE52F2A666F9700C72419 /* mh_det.cpp in Sources */,
+				124FE4992A666F9700C72419 /* sac_rom.cpp in Sources */,
+				124FE5022A666F9700C72419 /* sacenc_huff_tab.cpp in Sources */,
+				124FE47B2A666F9700C72419 /* sac_process.cpp in Sources */,
+				124FE4AB2A666F9700C72419 /* psdec.cpp in Sources */,
+				124FE4482A666F9700C72419 /* ms_stereo.cpp in Sources */,
+				124FE53E2A666F9700C72419 /* invf_est.cpp in Sources */,
+				124FE4B72A666F9700C72419 /* sbr_ram.cpp in Sources */,
+				124FE4DB2A666F9700C72419 /* env_dec.cpp in Sources */,
+				124FE3972A666F9600C72419 /* usacdec_acelp.cpp in Sources */,
+				124FE48A2A666F9700C72419 /* sac_qmf.cpp in Sources */,
+				124FE50E2A666F9700C72419 /* sacenc_onsetdetect.cpp in Sources */,
+				124FE4F92A666F9700C72419 /* sacenc_delay.cpp in Sources */,
+				124FE4FC2A666F9700C72419 /* sacenc_vectorfunctions.cpp in Sources */,
+				124FE4A22A666F9700C72419 /* genericStds.cpp in Sources */,
+				124FE4C62A666F9700C72419 /* sbr_deb.cpp in Sources */,
+				124FE4092A666F9600C72419 /* bitenc.cpp in Sources */,
+				124FE4782A666F9700C72419 /* drcDec_tools.cpp in Sources */,
+				124FE3852A666F9600C72419 /* rvlc.cpp in Sources */,
+				124FE38E2A666F9600C72419 /* usacdec_ace_ltp.cpp in Sources */,
+				124FE4932A666F9700C72419 /* sac_dec_conceal.cpp in Sources */,
+				124FE5202A666F9700C72419 /* code_env.cpp in Sources */,
+				124FE4032A666F9600C72419 /* tonality.cpp in Sources */,
+				124FE38B2A666F9600C72419 /* rvlcbit.cpp in Sources */,
+				124FE4272A666F9600C72419 /* pre_echo_control.cpp in Sources */,
+				124FE3732A666F9600C72419 /* usacdec_ace_d4t64.cpp in Sources */,
+				124FE5412A666F9700C72419 /* fram_gen.cpp in Sources */,
+				124FE3F72A666F9600C72419 /* qmf.cpp in Sources */,
+				124FE3A62A666F9600C72419 /* ldfiltbank.cpp in Sources */,
+				124FE3BB2A666F9600C72419 /* fft.cpp in Sources */,
+				124FDBF52A666BAA00C72419 /* Decoder.cpp in Sources */,
+				124FE4602A666F9700C72419 /* drcDec_rom.cpp in Sources */,
+				124FE42A2A666F9600C72419 /* chaosmeasure.cpp in Sources */,
+				124FE3A02A666F9600C72419 /* pulsedata.cpp in Sources */,
+				124FE5352A666F9700C72419 /* env_est.cpp in Sources */,
+				124FE3942A666F9600C72419 /* aacdec_tns.cpp in Sources */,
+				124FE45A2A666F9700C72419 /* spreading.cpp in Sources */,
+				124FE3522A666F9600C72419 /* tpenc_asc.cpp in Sources */,
+				124FE4BD2A666F9700C72419 /* pvc_dec.cpp in Sources */,
+				124FE3582A666F9600C72419 /* usacdec_lpd.cpp in Sources */,
+				124FE46F2A666F9700C72419 /* FDK_drcDecLib.cpp in Sources */,
+				124FE4902A666F9700C72419 /* sac_reshapeBBEnv.cpp in Sources */,
+				124FE35E2A666F9600C72419 /* conceal.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		124FE1792A666F5600C72419 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				124FE51F2A666F9700C72419 /* sacenc_lib.cpp in Sources */,
+				124FE4382A666F9700C72419 /* qc_main.cpp in Sources */,
+				124FE46E2A666F9700C72419 /* drcDec_gainDecoder.cpp in Sources */,
+				124FE4982A666F9700C72419 /* sac_dec.cpp in Sources */,
+				124FE37E2A666F9600C72419 /* aac_ram.cpp in Sources */,
+				124FE4232A666F9600C72419 /* transform.cpp in Sources */,
+				124FE3632A666F9600C72419 /* aacdecoder.cpp in Sources */,
+				124FE3FF2A666F9600C72419 /* pnsparam.cpp in Sources */,
+				124FE3512A666F9600C72419 /* tpenc_adts.cpp in Sources */,
+				124FE4082A666F9600C72419 /* aacenc.cpp in Sources */,
+				124FE4C52A666F9700C72419 /* sbrdec_drc.cpp in Sources */,
+				124FE5012A666F9700C72419 /* sacenc_framewindowing.cpp in Sources */,
+				124FE3722A666F9600C72419 /* block.cpp in Sources */,
+				124FE3932A666F9600C72419 /* aac_rom.cpp in Sources */,
+				124FE40E2A666F9600C72419 /* noisedet.cpp in Sources */,
+				124FE50A2A666F9700C72419 /* sacenc_tree.cpp in Sources */,
+				124FE4D12A666F9700C72419 /* sbr_dec.cpp in Sources */,
+				124FE54F2A666F9700C72419 /* nf_est.cpp in Sources */,
+				124FE52E2A666F9700C72419 /* ps_bitenc.cpp in Sources */,
+				124FE4532A666F9700C72419 /* psy_main.cpp in Sources */,
+				124FE52B2A666F9700C72419 /* ps_main.cpp in Sources */,
+				124FE4802A666F9700C72419 /* sac_calcM1andM2.cpp in Sources */,
+				124FE4202A666F9600C72419 /* aacenc_tns.cpp in Sources */,
+				124FE4A12A666F9700C72419 /* syslib_channelMapDescr.cpp in Sources */,
+				124FE4742A666F9700C72419 /* drcGainDec_preprocess.cpp in Sources */,
+				124FE4502A666F9700C72419 /* metadata_main.cpp in Sources */,
+				124FE3A52A666F9600C72419 /* usacdec_rom.cpp in Sources */,
+				124FE35D2A666F9600C72419 /* FDK_delay.cpp in Sources */,
+				124FE4E62A666F9700C72419 /* pcm_utils.cpp in Sources */,
+				124FE42F2A666F9600C72419 /* block_switch.cpp in Sources */,
+				124FE4472A666F9700C72419 /* intensity.cpp in Sources */,
+				124FE4E02A666F9700C72419 /* limiter.cpp in Sources */,
+				124FE3662A666F9600C72419 /* usacdec_lpc.cpp in Sources */,
+				124FE3692A666F9600C72419 /* rvlcconceal.cpp in Sources */,
+				124FE3842A666F9600C72419 /* aacdecoder_lib.cpp in Sources */,
+				124FE4832A666F9700C72419 /* sac_dec_lib.cpp in Sources */,
+				124FE4F82A666F9700C72419 /* tpdec_adts.cpp in Sources */,
+				124FE4892A666F9700C72419 /* sac_stp.cpp in Sources */,
+				124FE36C2A666F9600C72419 /* channel.cpp in Sources */,
+				124FE54C2A666F9700C72419 /* sbrenc_freq_sca.cpp in Sources */,
+				124FE3E72A666F9600C72419 /* fixpoint_math.cpp in Sources */,
+				124FE4F22A666F9700C72419 /* tpdec_latm.cpp in Sources */,
+				124FE3B42A666F9600C72419 /* FDK_trigFcts.cpp in Sources */,
+				124FE49E2A666F9700C72419 /* sac_bitdec.cpp in Sources */,
+				124FE4E92A666F9700C72419 /* tpdec_asc.cpp in Sources */,
+				124FE5552A666F9700C72419 /* tran_det.cpp in Sources */,
+				124FE4B32A666F9700C72419 /* sbrdecoder.cpp in Sources */,
+				124FE45F2A666F9700C72419 /* ac_arith_coder.cpp in Sources */,
+				124FE4652A666F9700C72419 /* drcDec_reader.cpp in Sources */,
+				124FE4E32A666F9700C72419 /* pcmdmx_lib.cpp in Sources */,
+				124FE4022A666F9600C72419 /* grp_data.cpp in Sources */,
+				124FE51C2A666F9700C72419 /* sacenc_dmx_tdom_enh.cpp in Sources */,
+				124FE37B2A666F9600C72419 /* usacdec_fac.cpp in Sources */,
+				124FE41D2A666F9600C72419 /* bandwidth.cpp in Sources */,
+				124FE3B72A666F9600C72419 /* mdct.cpp in Sources */,
+				124FE4DA2A666F9700C72419 /* psdec_drm.cpp in Sources */,
+				124FE3CC2A666F9600C72419 /* FDK_hybrid.cpp in Sources */,
+				124FE5492A666F9700C72419 /* sbrenc_ram.cpp in Sources */,
+				124FE3812A666F9600C72419 /* stereo.cpp in Sources */,
+				124FE4352A666F9600C72419 /* aacenc_pns.cpp in Sources */,
+				124FE5162A666F9700C72419 /* sacenc_nlc_enc.cpp in Sources */,
+				124FE34B2A666F9600C72419 /* tpenc_lib.cpp in Sources */,
+				124FE3FC2A666F9600C72419 /* metadata_compressor.cpp in Sources */,
+				124FE3B12A666F9600C72419 /* FDK_core.cpp in Sources */,
+				124FE4172A666F9600C72419 /* dyn_bits.cpp in Sources */,
+				124FE46B2A666F9700C72419 /* drcDec_selectionProcess.cpp in Sources */,
+				124FE4682A666F9700C72419 /* drcGainDec_process.cpp in Sources */,
+				124FE4772A666F9700C72419 /* drcGainDec_init.cpp in Sources */,
+				124FE3D82A666F9600C72419 /* FDK_lpc.cpp in Sources */,
+				124FE3AB2A666F9600C72419 /* aacdec_hcr_bit.cpp in Sources */,
+				124FE38A2A666F9600C72419 /* aacdec_hcr.cpp in Sources */,
+				124FE4EF2A666F9700C72419 /* tpdec_lib.cpp in Sources */,
+				124FE3AE2A666F9600C72419 /* aacdec_pns.cpp in Sources */,
+				124FE4562A666F9700C72419 /* adj_thr.cpp in Sources */,
+				124FE4F52A666F9700C72419 /* tpdec_drm.cpp in Sources */,
+				124FE41A2A666F9600C72419 /* aacenc_lib.cpp in Sources */,
+				124FE3C02A666F9600C72419 /* FDK_bitbuffer.cpp in Sources */,
+				124FE5252A666F9700C72419 /* sbrenc_rom.cpp in Sources */,
+				124FE3ED2A666F9600C72419 /* FDK_decorrelate.cpp in Sources */,
+				124FE3BA2A666F9600C72419 /* FDK_matrixCalloc.cpp in Sources */,
+				124FE5462A666F9700C72419 /* sbr_encoder.cpp in Sources */,
+				124FE4D72A666F9700C72419 /* HFgen_preFlat.cpp in Sources */,
+				124FE4C22A666F9700C72419 /* huff_dec.cpp in Sources */,
+				124FE48F2A666F9700C72419 /* sac_tsd.cpp in Sources */,
+				124FE3572A666F9600C72419 /* tpenc_adif.cpp in Sources */,
+				124FE3DE2A666F9600C72419 /* FDK_qmf_domain.cpp in Sources */,
+				124FE4B02A666F9700C72419 /* env_extr.cpp in Sources */,
+				124FE3F02A666F9600C72419 /* dct.cpp in Sources */,
+				124FE36F2A666F9600C72419 /* aacdec_hcrs.cpp in Sources */,
+				124FE4412A666F9700C72419 /* mps_main.cpp in Sources */,
+				124FE5072A666F9700C72419 /* sacenc_filter.cpp in Sources */,
+				124FE4BC2A666F9700C72419 /* sbrdec_freq_sca.cpp in Sources */,
+				124FE4AA2A666F9700C72419 /* hbe.cpp in Sources */,
+				124FE4592A666F9700C72419 /* channel_map.cpp in Sources */,
+				124FE4CB2A666F9700C72419 /* psbitdec.cpp in Sources */,
+				124FE4A72A666F9700C72419 /* lpp_tran.cpp in Sources */,
+				124FE44D2A666F9700C72419 /* sf_estim.cpp in Sources */,
+				124FE43B2A666F9700C72419 /* bit_cnt.cpp in Sources */,
+				124FE4862A666F9700C72419 /* sac_smoothing.cpp in Sources */,
+				124FE5132A666F9700C72419 /* sacenc_paramextract.cpp in Sources */,
+				124FE5192A666F9700C72419 /* sacenc_bitstream.cpp in Sources */,
+				124FE3EA2A666F9600C72419 /* scale.cpp in Sources */,
+				124FE4EC2A666F9700C72419 /* tpdec_adif.cpp in Sources */,
+				124FE5582A666F9700C72419 /* resampler.cpp in Sources */,
+				124FE4D42A666F9700C72419 /* psdecrom_drm.cpp in Sources */,
+				124FE3C32A666F9600C72419 /* nlc_dec.cpp in Sources */,
+				124FE4142A666F9600C72419 /* band_nrg.cpp in Sources */,
+				124FE43E2A666F9700C72419 /* quantize.cpp in Sources */,
+				124FE39F2A666F9600C72419 /* aacdec_drc.cpp in Sources */,
+				124FE50D2A666F9700C72419 /* sacenc_staticgain.cpp in Sources */,
+				124FE3F62A666F9600C72419 /* FDK_tools_rom.cpp in Sources */,
+				124FE4112A666F9600C72419 /* aacEnc_ram.cpp in Sources */,
+				124FE4322A666F9600C72419 /* line_pe.cpp in Sources */,
+				124FE34E2A666F9600C72419 /* tpenc_latm.cpp in Sources */,
+				124FE3C62A666F9600C72419 /* autocorr2nd.cpp in Sources */,
+				124FE3C92A666F9600C72419 /* huff_nodes.cpp in Sources */,
+				124FE3F32A666F9600C72419 /* FDK_crc.cpp in Sources */,
+				124FE5282A666F9700C72419 /* bit_sbr.cpp in Sources */,
+				124FE3DB2A666F9600C72419 /* fft_rad2.cpp in Sources */,
+				124FE4CE2A666F9700C72419 /* sbr_rom.cpp in Sources */,
+				124FE4262A666F9600C72419 /* aacEnc_rom.cpp in Sources */,
+				124FE53A2A666F9700C72419 /* ton_corr.cpp in Sources */,
+				124FE53D2A666F9700C72419 /* ps_encode.cpp in Sources */,
+				124FE4B62A666F9700C72419 /* env_calc.cpp in Sources */,
+				124FE3782A666F9600C72419 /* channelinfo.cpp in Sources */,
+				124FE55B2A6670B300C72419 /* wavreader.c in Sources */,
+				124FE5342A666F9700C72419 /* sbr_misc.cpp in Sources */,
+				124FE4442A666F9700C72419 /* psy_configuration.cpp in Sources */,
+				124FE5522A666F9700C72419 /* env_bit.cpp in Sources */,
+				124FE5312A666F9700C72419 /* mh_det.cpp in Sources */,
+				124FE49B2A666F9700C72419 /* sac_rom.cpp in Sources */,
+				124FE5042A666F9700C72419 /* sacenc_huff_tab.cpp in Sources */,
+				124FE47D2A666F9700C72419 /* sac_process.cpp in Sources */,
+				124FE4AD2A666F9700C72419 /* psdec.cpp in Sources */,
+				124FE44A2A666F9700C72419 /* ms_stereo.cpp in Sources */,
+				124FE5402A666F9700C72419 /* invf_est.cpp in Sources */,
+				124FE4B92A666F9700C72419 /* sbr_ram.cpp in Sources */,
+				124FE4DD2A666F9700C72419 /* env_dec.cpp in Sources */,
+				124FE3992A666F9600C72419 /* usacdec_acelp.cpp in Sources */,
+				124FE48C2A666F9700C72419 /* sac_qmf.cpp in Sources */,
+				124FE5102A666F9700C72419 /* sacenc_onsetdetect.cpp in Sources */,
+				124FE4FB2A666F9700C72419 /* sacenc_delay.cpp in Sources */,
+				124FE4FE2A666F9700C72419 /* sacenc_vectorfunctions.cpp in Sources */,
+				124FE4A42A666F9700C72419 /* genericStds.cpp in Sources */,
+				124FE4C82A666F9700C72419 /* sbr_deb.cpp in Sources */,
+				124FE40B2A666F9600C72419 /* bitenc.cpp in Sources */,
+				124FE47A2A666F9700C72419 /* drcDec_tools.cpp in Sources */,
+				124FE3872A666F9600C72419 /* rvlc.cpp in Sources */,
+				124FE3902A666F9600C72419 /* usacdec_ace_ltp.cpp in Sources */,
+				124FE4952A666F9700C72419 /* sac_dec_conceal.cpp in Sources */,
+				124FE5222A666F9700C72419 /* code_env.cpp in Sources */,
+				124FE4052A666F9600C72419 /* tonality.cpp in Sources */,
+				124FE38D2A666F9600C72419 /* rvlcbit.cpp in Sources */,
+				124FE4292A666F9600C72419 /* pre_echo_control.cpp in Sources */,
+				124FE3752A666F9600C72419 /* usacdec_ace_d4t64.cpp in Sources */,
+				124FE5432A666F9700C72419 /* fram_gen.cpp in Sources */,
+				124FE3F92A666F9600C72419 /* qmf.cpp in Sources */,
+				124FE3A82A666F9600C72419 /* ldfiltbank.cpp in Sources */,
+				124FE3BD2A666F9600C72419 /* fft.cpp in Sources */,
+				124FE1852A666F6400C72419 /* aac-enc.c in Sources */,
+				124FE4622A666F9700C72419 /* drcDec_rom.cpp in Sources */,
+				124FE42C2A666F9600C72419 /* chaosmeasure.cpp in Sources */,
+				124FE3A22A666F9600C72419 /* pulsedata.cpp in Sources */,
+				124FE5372A666F9700C72419 /* env_est.cpp in Sources */,
+				124FE3962A666F9600C72419 /* aacdec_tns.cpp in Sources */,
+				124FE45C2A666F9700C72419 /* spreading.cpp in Sources */,
+				124FE3542A666F9600C72419 /* tpenc_asc.cpp in Sources */,
+				124FE4BF2A666F9700C72419 /* pvc_dec.cpp in Sources */,
+				124FE35A2A666F9600C72419 /* usacdec_lpd.cpp in Sources */,
+				124FE4712A666F9700C72419 /* FDK_drcDecLib.cpp in Sources */,
+				124FE4922A666F9700C72419 /* sac_reshapeBBEnv.cpp in Sources */,
+				124FE3602A666F9600C72419 /* conceal.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		124FDBE92A666B7300C72419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../**";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		124FDBEA2A666B7300C72419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../**";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		124FDBF72A666BAA00C72419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42D35TL6R9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		124FDBF82A666BAA00C72419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42D35TL6R9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		124FE1822A666F5600C72419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42D35TL6R9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		124FE1832A666F5600C72419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42D35TL6R9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		124FDBDF2A666B7200C72419 /* Build configuration list for PBXProject "macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				124FDBE92A666B7300C72419 /* Debug */,
+				124FDBEA2A666B7300C72419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		124FDBF62A666BAA00C72419 /* Build configuration list for PBXNativeTarget "Decoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				124FDBF72A666BAA00C72419 /* Debug */,
+				124FDBF82A666BAA00C72419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		124FE1812A666F5600C72419 /* Build configuration list for PBXNativeTarget "aac-enc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				124FE1822A666F5600C72419 /* Debug */,
+				124FE1832A666F5600C72419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 124FDBDC2A666B7200C72419 /* Project object */;
+}
