@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1420"
+   LastUpgradeVersion = "1430"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "124FDBF12A666BAA00C72419"
-               BuildableName = "Decoder"
-               BlueprintName = "Decoder"
+               BlueprintIdentifier = "124FE17C2A666F5600C72419"
+               BuildableName = "aac-enc"
+               BlueprintName = "aac-enc"
                ReferencedContainer = "container:macOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,19 +45,27 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "124FDBF12A666BAA00C72419"
-            BuildableName = "Decoder"
-            BlueprintName = "Decoder"
+            BlueprintIdentifier = "124FE17C2A666F5600C72419"
+            BuildableName = "aac-enc"
+            BlueprintName = "aac-enc"
             ReferencedContainer = "container:macOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "_.aac"
+            argument = "-t2"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "_.pcm"
+            argument = "-r69000"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "$.wav"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "$.aac"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
@@ -72,9 +80,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "124FDBF12A666BAA00C72419"
-            BuildableName = "Decoder"
-            BlueprintName = "Decoder"
+            BlueprintIdentifier = "124FE17C2A666F5600C72419"
+            BuildableName = "aac-enc"
+            BlueprintName = "aac-enc"
             ReferencedContainer = "container:macOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

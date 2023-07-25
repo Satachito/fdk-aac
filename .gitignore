@@ -42,3 +42,6 @@ CMakeSettings.json
 
 .vs/
 .vscode/
+
+macOS.xcodeproj/xcuserdata/
+macOS.xcodeproj/project.xcworkspace/xcuserdata/
